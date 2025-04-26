@@ -1,0 +1,364 @@
+2025-04-25 20:25:34 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-25 20:25:34 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-25 20:25:36 INFO  Utils.ApiClient - POST request sent to endpoint: /brands
+2025-04-25 20:25:37 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jspzqfj597a566405v8dp7zq
+2025-04-25 20:25:37 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-25 20:25:37 INFO  Steps.CategorySteps - Category created successfully with ID: 01jspzqg02qf2g1ej7khnmhq4q
+2025-04-25 20:25:37 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-25 20:26:33 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-25 20:26:33 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-25 20:26:35 INFO  Utils.ApiClient - POST request sent to endpoint: /brands
+2025-04-25 20:26:35 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jspzs8xk2n0hv63thackcx95
+2025-04-25 20:26:35 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-25 20:26:36 INFO  Steps.CategorySteps - Category created successfully with ID: 01jspzs9g6e384sns8w50p2wpv
+2025-04-25 20:26:36 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-25 20:26:37 INFO  Steps.CategorySteps - Category created successfully with ID: 01jspzsa5vnrmvgcn4aybf7j6k
+2025-04-25 20:26:37 INFO  Utils.ApiClient - PUT request sent to endpoint: /brands/01jspzs8xk2n0hv63thackcx95
+2025-04-25 20:26:37 INFO  Utils.ApiClient - GET request sent to endpoint: /brands/01jspzs8xk2n0hv63thackcx95
+2025-04-25 20:26:38 INFO  Steps.BrandSteps - Brand updated successfully with ID: 01jspzs8xk2n0hv63thackcx95
+2025-04-25 20:26:38 INFO  Utils.ApiClient - PUT request sent to endpoint: /categories/01jspzsa5vnrmvgcn4aybf7j6k
+2025-04-25 20:31:21 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-25 20:31:21 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-25 20:31:23 INFO  Utils.ApiClient - POST request sent to endpoint: /brands
+2025-04-25 20:31:23 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jsq0225qndnt0v92fbjcz39w
+2025-04-25 20:31:23 INFO  Utils.ApiClient - PUT request sent to endpoint: /brands/01jsq0225qndnt0v92fbjcz39w
+2025-04-25 20:31:24 INFO  Utils.ApiClient - GET request sent to endpoint: /brands/01jsq0225qndnt0v92fbjcz39w
+2025-04-25 20:31:24 INFO  Steps.BrandSteps - Brand updated successfully with ID: 01jsq0225qndnt0v92fbjcz39w
+2025-04-25 20:31:24 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-25 20:31:25 INFO  Steps.CategorySteps - Category created successfully with ID: 01jsq023f2gresy98yscd3y0sf
+2025-04-25 20:31:25 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-25 20:31:25 INFO  Steps.CategorySteps - Category created successfully with ID: 01jsq023vxtb4t6jw8gz0xp35w
+2025-04-25 20:31:25 INFO  Utils.ApiClient - PUT request sent to endpoint: /categories/01jsq023vxtb4t6jw8gz0xp35w
+2025-04-25 20:32:40 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-25 20:32:41 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-25 20:32:42 INFO  Utils.ApiClient - POST request sent to endpoint: /brands
+2025-04-25 20:32:43 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jsq04fyaaxsdh2wj9mw2d73z
+2025-04-25 20:32:43 INFO  Utils.ApiClient - PUT request sent to endpoint: /brands/01jsq04fyaaxsdh2wj9mw2d73z
+2025-04-25 20:32:44 INFO  Utils.ApiClient - GET request sent to endpoint: /brands/01jsq04fyaaxsdh2wj9mw2d73z
+2025-04-25 20:32:44 INFO  Steps.BrandSteps - Brand updated successfully with ID: 01jsq04fyaaxsdh2wj9mw2d73z
+2025-04-25 20:32:44 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-25 20:32:45 INFO  Steps.CategorySteps - Category created successfully with ID: 01jsq04hmq2zf71cvxrnn40cc5
+2025-04-25 20:32:45 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-25 20:32:45 INFO  Steps.CategorySteps - Category created successfully with ID: 01jsq04j1sg4wktmrp7rtqf7vs
+2025-04-25 20:32:45 INFO  Utils.ApiClient - PUT request sent to endpoint: /categories/01jsq04j1sg4wktmrp7rtqf7vs
+2025-04-25 20:37:16 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-25 20:37:16 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-25 20:37:18 INFO  Utils.ApiClient - POST request sent to endpoint: /brands
+2025-04-25 20:37:18 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jsq0cwvasw4tcx21p2j2ercr
+2025-04-25 20:37:18 INFO  Utils.ApiClient - PUT request sent to endpoint: /brands/01jsq0cwvasw4tcx21p2j2ercr
+2025-04-25 20:37:19 INFO  Utils.ApiClient - GET request sent to endpoint: /brands/01jsq0cwvasw4tcx21p2j2ercr
+2025-04-25 20:37:19 INFO  Steps.BrandSteps - Brand updated successfully with ID: 01jsq0cwvasw4tcx21p2j2ercr
+2025-04-25 20:37:19 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-25 20:37:19 INFO  Steps.CategorySteps - Category created successfully with ID: 01jsq0cy191vedargq18xejwst
+2025-04-25 20:37:19 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-25 20:37:20 INFO  Steps.CategorySteps - Category created successfully with ID: 01jsq0cykkwp9jppjtg55dh1q6
+2025-04-25 20:37:20 INFO  Utils.ApiClient - PUT request sent to endpoint: /categories/01jsq0cykkwp9jppjtg55dh1q6
+2025-04-25 20:37:21 INFO  Utils.ApiClient - GET request sent to endpoint: /categories/tree/01jsq0cykkwp9jppjtg55dh1q6
+2025-04-25 20:37:21 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jsq0cy191vedargq18xejwst
+2025-04-25 20:38:17 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-25 20:38:17 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-25 20:38:19 INFO  Utils.ApiClient - POST request sent to endpoint: /brands
+2025-04-25 20:38:20 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jsq0erpexerexeqqedt5pksd
+2025-04-25 20:38:20 INFO  Utils.ApiClient - PUT request sent to endpoint: /brands/01jsq0erpexerexeqqedt5pksd
+2025-04-25 20:38:20 INFO  Utils.ApiClient - GET request sent to endpoint: /brands/01jsq0erpexerexeqqedt5pksd
+2025-04-25 20:38:23 INFO  Steps.BrandSteps - Brand updated successfully with ID: 01jsq0erpexerexeqqedt5pksd
+2025-04-25 20:38:23 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-25 20:38:24 INFO  Steps.CategorySteps - Category created successfully with ID: 01jsq0ewvd61bt4gwnab0wpg2s
+2025-04-25 20:38:24 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-25 20:38:24 INFO  Steps.CategorySteps - Category created successfully with ID: 01jsq0ex6dpfehb901xxn8167k
+2025-04-25 20:38:24 INFO  Utils.ApiClient - PUT request sent to endpoint: /categories/01jsq0ex6dpfehb901xxn8167k
+2025-04-25 20:38:24 INFO  Utils.ApiClient - GET request sent to endpoint: /categories/tree/01jsq0ex6dpfehb901xxn8167k
+2025-04-25 20:38:25 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jsq0ewvd61bt4gwnab0wpg2s
+2025-04-25 20:38:26 INFO  Steps.CategorySteps - Category deletion failed: Seems like this category is used elsewhere.
+2025-04-25 20:38:27 INFO  Utils.ApiClient - POST request sent to endpoint: /products
+2025-04-25 20:38:27 INFO  Steps.ProductSteps - Product created successfully with ID: 01jsq0f03mja98cxs4tzx4mt1t
+2025-04-25 20:38:27 INFO  Utils.ApiClient - PATCH request sent to endpoint: /products/01jsq0f03mja98cxs4tzx4mt1t
+2025-04-25 20:38:28 INFO  Utils.ApiClient - GET request sent to endpoint: /products/01jsq0f03mja98cxs4tzx4mt1t
+2025-04-25 20:38:28 INFO  Steps.ProductSteps - Product updated successfully with ID: 01jsq0f03mja98cxs4tzx4mt1t
+2025-04-25 20:44:31 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-25 20:44:31 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-25 20:44:33 INFO  Utils.ApiClient - POST request sent to endpoint: /brands
+2025-04-25 20:44:33 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jsq0t5syxhaa92dhswyvge3c
+2025-04-25 20:44:33 INFO  Utils.ApiClient - PUT request sent to endpoint: /brands/01jsq0t5syxhaa92dhswyvge3c
+2025-04-25 20:44:34 INFO  Utils.ApiClient - GET request sent to endpoint: /brands/01jsq0t5syxhaa92dhswyvge3c
+2025-04-25 20:44:34 INFO  Steps.BrandSteps - Brand updated successfully with ID: 01jsq0t5syxhaa92dhswyvge3c
+2025-04-25 20:44:34 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-25 20:44:35 INFO  Steps.CategorySteps - Category created successfully with ID: 01jsq0t70wv2jym3jj3dgwsbdf
+2025-04-25 20:44:35 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-25 20:44:35 INFO  Steps.CategorySteps - Category created successfully with ID: 01jsq0t7qtk4awvw79wx0anjjt
+2025-04-25 20:44:35 INFO  Utils.ApiClient - PUT request sent to endpoint: /categories/01jsq0t7qtk4awvw79wx0anjjt
+2025-04-25 20:44:36 INFO  Utils.ApiClient - GET request sent to endpoint: /categories/tree/01jsq0t7qtk4awvw79wx0anjjt
+2025-04-25 20:44:36 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jsq0t70wv2jym3jj3dgwsbdf
+2025-04-25 20:44:37 INFO  Steps.CategorySteps - Category deletion failed: Seems like this category is used elsewhere.
+2025-04-25 20:44:38 INFO  Utils.ApiClient - POST request sent to endpoint: /products
+2025-04-25 20:44:38 INFO  Steps.ProductSteps - Product created successfully with ID: 01jsq0tad7axjacyw7qs454ngp
+2025-04-25 20:44:38 INFO  Utils.ApiClient - PATCH request sent to endpoint: /products/01jsq0tad7axjacyw7qs454ngp
+2025-04-25 20:44:39 INFO  Utils.ApiClient - GET request sent to endpoint: /products/01jsq0tad7axjacyw7qs454ngp
+2025-04-25 20:44:39 INFO  Steps.ProductSteps - Product updated successfully with ID: 01jsq0tad7axjacyw7qs454ngp
+2025-04-25 20:46:12 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-25 20:46:12 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-25 20:46:13 INFO  Utils.ApiClient - POST request sent to endpoint: /brands
+2025-04-25 20:46:14 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jsq0x7sb8qyrsbfrwf88ms6q
+2025-04-25 20:46:14 INFO  Utils.ApiClient - PUT request sent to endpoint: /brands/01jsq0x7sb8qyrsbfrwf88ms6q
+2025-04-25 20:46:14 INFO  Utils.ApiClient - GET request sent to endpoint: /brands/01jsq0x7sb8qyrsbfrwf88ms6q
+2025-04-25 20:46:14 INFO  Steps.BrandSteps - Brand updated successfully with ID: 01jsq0x7sb8qyrsbfrwf88ms6q
+2025-04-25 20:46:14 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-25 20:46:15 INFO  Steps.CategorySteps - Category created successfully with ID: 01jsq0x8w5zvms5ddyz7ccvhph
+2025-04-25 20:46:15 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-25 20:46:15 INFO  Steps.CategorySteps - Category created successfully with ID: 01jsq0x9cmxfexg9nvy0w44y52
+2025-04-25 20:46:15 INFO  Utils.ApiClient - PUT request sent to endpoint: /categories/01jsq0x9cmxfexg9nvy0w44y52
+2025-04-25 20:46:16 INFO  Utils.ApiClient - GET request sent to endpoint: /categories/tree/01jsq0x9cmxfexg9nvy0w44y52
+2025-04-25 20:46:17 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jsq0x8w5zvms5ddyz7ccvhph
+2025-04-25 20:46:18 INFO  Steps.CategorySteps - Category deletion failed: Seems like this category is used elsewhere.
+2025-04-25 20:46:19 INFO  Utils.ApiClient - POST request sent to endpoint: /products
+2025-04-25 20:46:20 INFO  Steps.ProductSteps - Product created successfully with ID: 01jsq0xe1wjjprw9ysef9yms1g
+2025-04-25 20:46:20 INFO  Utils.ApiClient - PATCH request sent to endpoint: /products/01jsq0xe1wjjprw9ysef9yms1g
+2025-04-25 20:46:21 INFO  Utils.ApiClient - GET request sent to endpoint: /products/01jsq0xe1wjjprw9ysef9yms1g
+2025-04-25 20:46:21 INFO  Steps.ProductSteps - Product updated successfully with ID: 01jsq0xe1wjjprw9ysef9yms1g
+2025-04-25 20:46:21 INFO  Utils.ApiClient - DELETE request sent to endpoint: /products/01jsq0xe1wjjprw9ysef9yms1g
+2025-04-25 20:47:34 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-25 20:47:34 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-25 20:47:36 INFO  Utils.ApiClient - POST request sent to endpoint: /brands
+2025-04-25 20:47:36 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jsq0zraf4raen29q3tvb2gs7
+2025-04-25 20:47:36 INFO  Utils.ApiClient - PUT request sent to endpoint: /brands/01jsq0zraf4raen29q3tvb2gs7
+2025-04-25 20:47:38 INFO  Utils.ApiClient - GET request sent to endpoint: /brands/01jsq0zraf4raen29q3tvb2gs7
+2025-04-25 20:47:38 INFO  Steps.BrandSteps - Brand updated successfully with ID: 01jsq0zraf4raen29q3tvb2gs7
+2025-04-25 20:47:38 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-25 20:47:38 INFO  Steps.CategorySteps - Category created successfully with ID: 01jsq0ztgxyz6y01gbjyer08sr
+2025-04-25 20:47:38 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-25 20:47:39 INFO  Steps.CategorySteps - Category created successfully with ID: 01jsq0zv1rw4d2whcr7e1xyb6q
+2025-04-25 20:47:39 INFO  Utils.ApiClient - PUT request sent to endpoint: /categories/01jsq0zv1rw4d2whcr7e1xyb6q
+2025-04-25 20:47:39 INFO  Utils.ApiClient - GET request sent to endpoint: /categories/tree/01jsq0zv1rw4d2whcr7e1xyb6q
+2025-04-25 20:47:40 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jsq0ztgxyz6y01gbjyer08sr
+2025-04-25 20:47:40 INFO  Steps.CategorySteps - Category deletion failed: Seems like this category is used elsewhere.
+2025-04-25 20:47:41 INFO  Utils.ApiClient - POST request sent to endpoint: /products
+2025-04-25 20:47:41 INFO  Steps.ProductSteps - Product created successfully with ID: 01jsq0zxevqyhy73czrjwjer1p
+2025-04-25 20:47:41 INFO  Utils.ApiClient - PATCH request sent to endpoint: /products/01jsq0zxevqyhy73czrjwjer1p
+2025-04-25 20:47:43 INFO  Utils.ApiClient - GET request sent to endpoint: /products/01jsq0zxevqyhy73czrjwjer1p
+2025-04-25 20:47:44 INFO  Steps.ProductSteps - Product updated successfully with ID: 01jsq0zxevqyhy73czrjwjer1p
+2025-04-25 20:47:44 INFO  Utils.ApiClient - DELETE request sent to endpoint: /products/01jsq0zxevqyhy73czrjwjer1p
+2025-04-25 20:47:44 INFO  Utils.ApiClient - GET request sent to endpoint: /products/01jsq0zxevqyhy73czrjwjer1p
+2025-04-25 20:47:44 INFO  Steps.ProductSteps - Product deleted successfully with ID: 01jsq0zxevqyhy73czrjwjer1p
+2025-04-25 20:47:44 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jsq0zv1rw4d2whcr7e1xyb6q
+2025-04-25 20:47:45 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jsq0ztgxyz6y01gbjyer08sr
+2025-04-25 20:47:45 INFO  Utils.ApiClient - DELETE request sent to endpoint: /brands/01jsq0zraf4raen29q3tvb2gs7
+2025-04-25 20:49:14 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-25 20:49:14 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-25 20:49:16 INFO  Utils.ApiClient - POST request sent to endpoint: /brands
+2025-04-25 20:49:16 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jsq12t3dt981yee8d1an0tc6
+2025-04-25 20:49:16 INFO  Utils.ApiClient - PUT request sent to endpoint: /brands/01jsq12t3dt981yee8d1an0tc6
+2025-04-25 20:49:17 INFO  Utils.ApiClient - GET request sent to endpoint: /brands/01jsq12t3dt981yee8d1an0tc6
+2025-04-25 20:49:17 INFO  Steps.BrandSteps - Brand updated successfully with ID: 01jsq12t3dt981yee8d1an0tc6
+2025-04-25 20:49:17 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-25 20:49:18 INFO  Steps.CategorySteps - Category created successfully with ID: 01jsq12vk0znt5dm3dr6hkrx0z
+2025-04-25 20:49:18 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-25 20:49:18 INFO  Steps.CategorySteps - Category created successfully with ID: 01jsq12w5nzn6gwk701hj2w21z
+2025-04-25 20:49:18 INFO  Utils.ApiClient - PUT request sent to endpoint: /categories/01jsq12w5nzn6gwk701hj2w21z
+2025-04-25 20:49:19 INFO  Utils.ApiClient - GET request sent to endpoint: /categories/tree/01jsq12w5nzn6gwk701hj2w21z
+2025-04-25 20:49:19 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jsq12vk0znt5dm3dr6hkrx0z
+2025-04-25 20:49:20 INFO  Steps.CategorySteps - Category deletion failed: Seems like this category is used elsewhere.
+2025-04-25 20:49:21 INFO  Utils.ApiClient - POST request sent to endpoint: /products
+2025-04-25 20:49:22 INFO  Steps.ProductSteps - Product created successfully with ID: 01jsq12z73s8zavxykr4byh4gr
+2025-04-25 20:49:22 INFO  Utils.ApiClient - PATCH request sent to endpoint: /products/01jsq12z73s8zavxykr4byh4gr
+2025-04-25 20:49:22 INFO  Utils.ApiClient - GET request sent to endpoint: /products/01jsq12z73s8zavxykr4byh4gr
+2025-04-25 20:49:22 INFO  Steps.ProductSteps - Product updated successfully with ID: 01jsq12z73s8zavxykr4byh4gr
+2025-04-25 20:49:22 INFO  Utils.ApiClient - DELETE request sent to endpoint: /products/01jsq12z73s8zavxykr4byh4gr
+2025-04-25 20:49:23 INFO  Utils.ApiClient - GET request sent to endpoint: /products/01jsq12z73s8zavxykr4byh4gr
+2025-04-25 20:49:23 INFO  Steps.ProductSteps - Product deleted successfully with ID: 01jsq12z73s8zavxykr4byh4gr
+2025-04-25 20:49:23 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jsq12w5nzn6gwk701hj2w21z
+2025-04-25 20:49:24 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jsq12vk0znt5dm3dr6hkrx0z
+2025-04-25 20:49:24 INFO  Utils.ApiClient - DELETE request sent to endpoint: /brands/01jsq12t3dt981yee8d1an0tc6
+2025-04-25 20:50:36 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-25 20:50:36 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-25 20:50:38 INFO  Utils.ApiClient - POST request sent to endpoint: /brands
+2025-04-25 20:50:38 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jsq15a3wrzwg6fzsmh7xr6ns
+2025-04-25 20:50:38 INFO  Utils.ApiClient - PUT request sent to endpoint: /brands/01jsq15a3wrzwg6fzsmh7xr6ns
+2025-04-25 20:50:39 INFO  Utils.ApiClient - GET request sent to endpoint: /brands/01jsq15a3wrzwg6fzsmh7xr6ns
+2025-04-25 20:50:39 INFO  Steps.BrandSteps - Brand updated successfully with ID: 01jsq15a3wrzwg6fzsmh7xr6ns
+2025-04-25 20:50:39 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-25 20:50:39 INFO  Steps.CategorySteps - Category created successfully with ID: 01jsq15baxck6hvtexr7yf7v4m
+2025-04-25 20:50:39 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-25 20:50:40 INFO  Steps.CategorySteps - Category created successfully with ID: 01jsq15bq9d6h2fqrwjj5mmn3a
+2025-04-25 20:50:40 INFO  Utils.ApiClient - PUT request sent to endpoint: /categories/01jsq15bq9d6h2fqrwjj5mmn3a
+2025-04-25 20:50:40 INFO  Utils.ApiClient - GET request sent to endpoint: /categories/tree/01jsq15bq9d6h2fqrwjj5mmn3a
+2025-04-25 20:50:41 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jsq15baxck6hvtexr7yf7v4m
+2025-04-25 20:50:41 INFO  Steps.CategorySteps - Category deletion failed: Seems like this category is used elsewhere.
+2025-04-25 20:50:42 INFO  Utils.ApiClient - POST request sent to endpoint: /products
+2025-04-25 20:50:42 INFO  Steps.ProductSteps - Product created successfully with ID: 01jsq15e0q9f093ty7pdeny6kp
+2025-04-25 20:50:42 INFO  Utils.ApiClient - PATCH request sent to endpoint: /products/01jsq15e0q9f093ty7pdeny6kp
+2025-04-25 20:50:43 INFO  Utils.ApiClient - GET request sent to endpoint: /products/01jsq15e0q9f093ty7pdeny6kp
+2025-04-25 20:50:43 INFO  Steps.ProductSteps - Product updated successfully with ID: 01jsq15e0q9f093ty7pdeny6kp
+2025-04-25 20:50:43 INFO  Utils.ApiClient - DELETE request sent to endpoint: /products/01jsq15e0q9f093ty7pdeny6kp
+2025-04-25 20:50:44 INFO  Utils.ApiClient - GET request sent to endpoint: /products/01jsq15e0q9f093ty7pdeny6kp
+2025-04-25 20:50:44 INFO  Steps.ProductSteps - Product deleted successfully with ID: 01jsq15e0q9f093ty7pdeny6kp
+2025-04-25 20:50:44 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jsq15bq9d6h2fqrwjj5mmn3a
+2025-04-25 20:50:45 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jsq15baxck6hvtexr7yf7v4m
+2025-04-25 20:50:45 INFO  Utils.ApiClient - DELETE request sent to endpoint: /brands/01jsq15a3wrzwg6fzsmh7xr6ns
+2025-04-25 20:51:40 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-25 20:51:40 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-25 20:51:42 INFO  Utils.ApiClient - POST request sent to endpoint: /brands
+2025-04-25 20:51:42 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jsq178p74cww3t0x8b0fx42x
+2025-04-25 20:51:42 INFO  Utils.ApiClient - PUT request sent to endpoint: /brands/01jsq178p74cww3t0x8b0fx42x
+2025-04-25 20:51:43 INFO  Utils.ApiClient - GET request sent to endpoint: /brands/01jsq178p74cww3t0x8b0fx42x
+2025-04-25 20:51:43 INFO  Steps.BrandSteps - Brand updated successfully with ID: 01jsq178p74cww3t0x8b0fx42x
+2025-04-25 20:51:43 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-25 20:51:44 INFO  Steps.CategorySteps - Category created successfully with ID: 01jsq17a69nk7ebk8384nkax31
+2025-04-25 20:51:44 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-25 20:51:44 INFO  Steps.CategorySteps - Category created successfully with ID: 01jsq17apdab1d3129w8bcacf3
+2025-04-25 20:51:44 INFO  Utils.ApiClient - PUT request sent to endpoint: /categories/01jsq17apdab1d3129w8bcacf3
+2025-04-25 20:51:45 INFO  Utils.ApiClient - GET request sent to endpoint: /categories/tree/01jsq17apdab1d3129w8bcacf3
+2025-04-25 20:51:46 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jsq17a69nk7ebk8384nkax31
+2025-04-25 20:51:46 INFO  Steps.CategorySteps - Category deletion failed: Seems like this category is used elsewhere.
+2025-04-25 20:51:47 INFO  Utils.ApiClient - POST request sent to endpoint: /products
+2025-04-25 20:51:48 INFO  Steps.ProductSteps - Product created successfully with ID: 01jsq17dxtm3yvxbyama3n4w9b
+2025-04-25 20:51:48 INFO  Utils.ApiClient - PATCH request sent to endpoint: /products/01jsq17dxtm3yvxbyama3n4w9b
+2025-04-25 20:51:48 INFO  Utils.ApiClient - GET request sent to endpoint: /products/01jsq17dxtm3yvxbyama3n4w9b
+2025-04-25 20:51:49 INFO  Steps.ProductSteps - Product updated successfully with ID: 01jsq17dxtm3yvxbyama3n4w9b
+2025-04-25 20:51:49 INFO  Utils.ApiClient - DELETE request sent to endpoint: /products/01jsq17dxtm3yvxbyama3n4w9b
+2025-04-25 20:51:49 INFO  Utils.ApiClient - GET request sent to endpoint: /products/01jsq17dxtm3yvxbyama3n4w9b
+2025-04-25 20:51:50 INFO  Steps.ProductSteps - Product deleted successfully with ID: 01jsq17dxtm3yvxbyama3n4w9b
+2025-04-25 20:51:50 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jsq17apdab1d3129w8bcacf3
+2025-04-25 20:51:50 INFO  Utils.ApiClient - GET request sent to endpoint: /categories/tree/01jsq17apdab1d3129w8bcacf3
+2025-04-25 20:51:51 INFO  Steps.CategorySteps - Category deleted successfully with ID: 01jsq17apdab1d3129w8bcacf3
+2025-04-25 20:51:51 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jsq17a69nk7ebk8384nkax31
+2025-04-25 20:51:51 INFO  Utils.ApiClient - GET request sent to endpoint: /categories/tree/01jsq17a69nk7ebk8384nkax31
+2025-04-25 20:51:52 INFO  Steps.CategorySteps - Category deleted successfully with ID: 01jsq17a69nk7ebk8384nkax31
+2025-04-25 20:51:52 INFO  Utils.ApiClient - DELETE request sent to endpoint: /brands/01jsq178p74cww3t0x8b0fx42x
+2025-04-25 20:51:52 INFO  Utils.ApiClient - GET request sent to endpoint: /brands/01jsq178p74cww3t0x8b0fx42x
+2025-04-25 20:51:53 INFO  Steps.BrandSteps - Brand deleted successfully with ID: 01jsq178p74cww3t0x8b0fx42x
+2025-04-25 20:53:02 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-25 20:53:02 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-25 20:53:05 INFO  Utils.ApiClient - POST request sent to endpoint: /brands
+2025-04-25 20:53:06 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jsq19t78nt928w94k9x19mnh
+2025-04-25 20:53:06 INFO  Utils.ApiClient - PUT request sent to endpoint: /brands/01jsq19t78nt928w94k9x19mnh
+2025-04-25 20:53:06 INFO  Utils.ApiClient - GET request sent to endpoint: /brands/01jsq19t78nt928w94k9x19mnh
+2025-04-25 20:53:07 INFO  Steps.BrandSteps - Brand updated successfully with ID: 01jsq19t78nt928w94k9x19mnh
+2025-04-25 20:53:07 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-25 20:53:07 INFO  Steps.CategorySteps - Category created successfully with ID: 01jsq19vhea2dp3qssx39na4yr
+2025-04-25 20:53:07 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-25 20:53:08 INFO  Steps.CategorySteps - Category created successfully with ID: 01jsq19vy7yccr7jhh305s7zra
+2025-04-25 20:53:08 INFO  Utils.ApiClient - PUT request sent to endpoint: /categories/01jsq19vy7yccr7jhh305s7zra
+2025-04-25 20:53:08 INFO  Utils.ApiClient - GET request sent to endpoint: /categories/tree/01jsq19vy7yccr7jhh305s7zra
+2025-04-25 20:53:08 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jsq19vhea2dp3qssx39na4yr
+2025-04-25 20:53:09 INFO  Steps.CategorySteps - Category deletion failed: Seems like this category is used elsewhere.
+2025-04-25 20:53:10 INFO  Utils.ApiClient - POST request sent to endpoint: /products
+2025-04-25 20:53:10 INFO  Steps.ProductSteps - Product created successfully with ID: 01jsq19yp0591xk3xwn9xd67cd
+2025-04-25 20:53:10 INFO  Utils.ApiClient - PATCH request sent to endpoint: /products/01jsq19yp0591xk3xwn9xd67cd
+2025-04-25 20:53:12 INFO  Utils.ApiClient - GET request sent to endpoint: /products/01jsq19yp0591xk3xwn9xd67cd
+2025-04-25 20:53:12 INFO  Steps.ProductSteps - Product updated successfully with ID: 01jsq19yp0591xk3xwn9xd67cd
+2025-04-25 20:53:12 INFO  Utils.ApiClient - DELETE request sent to endpoint: /products/01jsq19yp0591xk3xwn9xd67cd
+2025-04-25 20:53:13 INFO  Utils.ApiClient - GET request sent to endpoint: /products/01jsq19yp0591xk3xwn9xd67cd
+2025-04-25 20:53:13 INFO  Steps.ProductSteps - Product deleted successfully with ID: 01jsq19yp0591xk3xwn9xd67cd
+2025-04-25 20:53:13 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jsq19vy7yccr7jhh305s7zra
+2025-04-25 20:53:14 INFO  Utils.ApiClient - GET request sent to endpoint: /categories/tree/01jsq19vy7yccr7jhh305s7zra
+2025-04-25 20:53:14 INFO  Steps.CategorySteps - Category deleted successfully with ID: 01jsq19vy7yccr7jhh305s7zra
+2025-04-25 20:53:14 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jsq19vhea2dp3qssx39na4yr
+2025-04-25 20:53:15 INFO  Utils.ApiClient - GET request sent to endpoint: /categories/tree/01jsq19vhea2dp3qssx39na4yr
+2025-04-25 20:53:16 INFO  Steps.CategorySteps - Category deleted successfully with ID: 01jsq19vhea2dp3qssx39na4yr
+2025-04-25 20:53:16 INFO  Utils.ApiClient - DELETE request sent to endpoint: /brands/01jsq19t78nt928w94k9x19mnh
+2025-04-25 20:53:16 INFO  Utils.ApiClient - GET request sent to endpoint: /brands/01jsq19t78nt928w94k9x19mnh
+2025-04-25 20:53:17 INFO  Steps.BrandSteps - Brand deleted successfully with ID: 01jsq19t78nt928w94k9x19mnh
+2025-04-26 01:44:45 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 01:44:45 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 01:44:48 INFO  Utils.ApiClient - POST request sent to endpoint: /brands
+2025-04-26 01:44:48 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jsqhzygsqh53wv2gprhwmbdz
+2025-04-26 01:44:48 INFO  Utils.ApiClient - PUT request sent to endpoint: /brands/01jsqhzygsqh53wv2gprhwmbdz
+2025-04-26 01:44:48 INFO  Utils.ApiClient - GET request sent to endpoint: /brands/01jsqhzygsqh53wv2gprhwmbdz
+2025-04-26 01:44:49 INFO  Steps.BrandSteps - Brand updated successfully with ID: 01jsqhzygsqh53wv2gprhwmbdz
+2025-04-26 01:44:49 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-26 01:45:42 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 01:45:42 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 01:45:44 INFO  Utils.ApiClient - POST request sent to endpoint: /brands
+2025-04-26 01:45:45 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jsqj1p0kpmt0cbea5as4m84h
+2025-04-26 01:45:45 INFO  Utils.ApiClient - PUT request sent to endpoint: /brands/01jsqj1p0kpmt0cbea5as4m84h
+2025-04-26 01:45:46 INFO  Utils.ApiClient - GET request sent to endpoint: /brands/01jsqj1p0kpmt0cbea5as4m84h
+2025-04-26 01:45:46 INFO  Steps.BrandSteps - Brand updated successfully with ID: 01jsqj1p0kpmt0cbea5as4m84h
+2025-04-26 01:45:46 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-26 01:45:47 INFO  Steps.CategorySteps - Category created successfully with ID: 01jsqj1qxpzn7q82vswe4vb2f4
+2025-04-26 01:45:47 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-26 01:45:47 INFO  Steps.CategorySteps - Category created successfully with ID: 01jsqj1reek6jmp1kqwsrc2z5x
+2025-04-26 01:45:47 INFO  Utils.ApiClient - PUT request sent to endpoint: /categories/01jsqj1reek6jmp1kqwsrc2z5x
+2025-04-26 01:45:48 INFO  Utils.ApiClient - GET request sent to endpoint: /categories/tree/01jsqj1reek6jmp1kqwsrc2z5x
+2025-04-26 01:45:48 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jsqj1qxpzn7q82vswe4vb2f4
+2025-04-26 01:45:49 INFO  Steps.CategorySteps - Category deletion failed: Seems like this category is used elsewhere.
+2025-04-26 01:45:50 INFO  Utils.ApiClient - POST request sent to endpoint: /products
+2025-04-26 01:45:50 INFO  Steps.ProductSteps - Product created successfully with ID: 01jsqj1v9kj7wscyp2eh33hg06
+2025-04-26 01:45:50 INFO  Utils.ApiClient - PATCH request sent to endpoint: /products/01jsqj1v9kj7wscyp2eh33hg06
+2025-04-26 01:45:51 INFO  Utils.ApiClient - GET request sent to endpoint: /products/01jsqj1v9kj7wscyp2eh33hg06
+2025-04-26 01:45:51 INFO  Steps.ProductSteps - Product updated successfully with ID: 01jsqj1v9kj7wscyp2eh33hg06
+2025-04-26 01:45:51 INFO  Utils.ApiClient - DELETE request sent to endpoint: /products/01jsqj1v9kj7wscyp2eh33hg06
+2025-04-26 01:45:52 INFO  Utils.ApiClient - GET request sent to endpoint: /products/01jsqj1v9kj7wscyp2eh33hg06
+2025-04-26 01:45:52 INFO  Steps.ProductSteps - Product deleted successfully with ID: 01jsqj1v9kj7wscyp2eh33hg06
+2025-04-26 01:45:52 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jsqj1reek6jmp1kqwsrc2z5x
+2025-04-26 01:45:53 INFO  Utils.ApiClient - GET request sent to endpoint: /categories/tree/01jsqj1reek6jmp1kqwsrc2z5x
+2025-04-26 01:45:54 INFO  Steps.CategorySteps - Category deleted successfully with ID: 01jsqj1reek6jmp1kqwsrc2z5x
+2025-04-26 01:45:54 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jsqj1qxpzn7q82vswe4vb2f4
+2025-04-26 01:45:54 INFO  Utils.ApiClient - GET request sent to endpoint: /categories/tree/01jsqj1qxpzn7q82vswe4vb2f4
+2025-04-26 01:45:55 INFO  Steps.CategorySteps - Category deleted successfully with ID: 01jsqj1qxpzn7q82vswe4vb2f4
+2025-04-26 01:45:55 INFO  Utils.ApiClient - DELETE request sent to endpoint: /brands/01jsqj1p0kpmt0cbea5as4m84h
+2025-04-26 01:45:55 INFO  Utils.ApiClient - GET request sent to endpoint: /brands/01jsqj1p0kpmt0cbea5as4m84h
+2025-04-26 01:45:56 INFO  Steps.BrandSteps - Brand deleted successfully with ID: 01jsqj1p0kpmt0cbea5as4m84h
+2025-04-26 01:46:08 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 01:46:08 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 01:46:10 INFO  Utils.ApiClient - POST request sent to endpoint: /brands
+2025-04-26 01:46:11 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jsqj2f9y22zyncgqh9p73f1e
+2025-04-26 01:46:11 INFO  Utils.ApiClient - PUT request sent to endpoint: /brands/01jsqj2f9y22zyncgqh9p73f1e
+2025-04-26 01:46:11 INFO  Utils.ApiClient - GET request sent to endpoint: /brands/01jsqj2f9y22zyncgqh9p73f1e
+2025-04-26 01:46:12 INFO  Steps.BrandSteps - Brand updated successfully with ID: 01jsqj2f9y22zyncgqh9p73f1e
+2025-04-26 01:46:12 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-26 01:46:12 INFO  Steps.CategorySteps - Category created successfully with ID: 01jsqj2gt21kyqs7kan8185jax
+2025-04-26 01:46:12 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-26 01:46:13 INFO  Steps.CategorySteps - Category created successfully with ID: 01jsqj2hdc6yvchs9m4avjz9sm
+2025-04-26 01:46:13 INFO  Utils.ApiClient - PUT request sent to endpoint: /categories/01jsqj2hdc6yvchs9m4avjz9sm
+2025-04-26 01:46:13 INFO  Utils.ApiClient - GET request sent to endpoint: /categories/tree/01jsqj2hdc6yvchs9m4avjz9sm
+2025-04-26 01:46:14 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jsqj2gt21kyqs7kan8185jax
+2025-04-26 01:46:15 INFO  Steps.CategorySteps - Category deletion failed: Seems like this category is used elsewhere.
+2025-04-26 01:46:16 INFO  Utils.ApiClient - POST request sent to endpoint: /products
+2025-04-26 01:46:16 INFO  Steps.ProductSteps - Product created successfully with ID: 01jsqj2mtpt5wn5fd1gr1vdhk4
+2025-04-26 01:46:16 INFO  Utils.ApiClient - PATCH request sent to endpoint: /products/01jsqj2mtpt5wn5fd1gr1vdhk4
+2025-04-26 01:46:17 INFO  Utils.ApiClient - GET request sent to endpoint: /products/01jsqj2mtpt5wn5fd1gr1vdhk4
+2025-04-26 01:46:17 INFO  Steps.ProductSteps - Product updated successfully with ID: 01jsqj2mtpt5wn5fd1gr1vdhk4
+2025-04-26 01:46:17 INFO  Utils.ApiClient - DELETE request sent to endpoint: /products/01jsqj2mtpt5wn5fd1gr1vdhk4
+2025-04-26 01:46:18 INFO  Utils.ApiClient - GET request sent to endpoint: /products/01jsqj2mtpt5wn5fd1gr1vdhk4
+2025-04-26 01:46:18 INFO  Steps.ProductSteps - Product deleted successfully with ID: 01jsqj2mtpt5wn5fd1gr1vdhk4
+2025-04-26 01:46:18 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jsqj2hdc6yvchs9m4avjz9sm
+2025-04-26 01:46:19 INFO  Utils.ApiClient - GET request sent to endpoint: /categories/tree/01jsqj2hdc6yvchs9m4avjz9sm
+2025-04-26 01:46:20 INFO  Steps.CategorySteps - Category deleted successfully with ID: 01jsqj2hdc6yvchs9m4avjz9sm
+2025-04-26 01:46:20 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jsqj2gt21kyqs7kan8185jax
+2025-04-26 01:46:20 INFO  Utils.ApiClient - GET request sent to endpoint: /categories/tree/01jsqj2gt21kyqs7kan8185jax
+2025-04-26 01:46:21 INFO  Steps.CategorySteps - Category deleted successfully with ID: 01jsqj2gt21kyqs7kan8185jax
+2025-04-26 01:46:21 INFO  Utils.ApiClient - DELETE request sent to endpoint: /brands/01jsqj2f9y22zyncgqh9p73f1e
+2025-04-26 01:46:21 INFO  Utils.ApiClient - GET request sent to endpoint: /brands/01jsqj2f9y22zyncgqh9p73f1e
+2025-04-26 01:46:22 INFO  Steps.BrandSteps - Brand deleted successfully with ID: 01jsqj2f9y22zyncgqh9p73f1e
