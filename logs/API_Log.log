@@ -362,3 +362,595 @@
 2025-04-26 01:46:21 INFO  Utils.ApiClient - DELETE request sent to endpoint: /brands/01jsqj2f9y22zyncgqh9p73f1e
 2025-04-26 01:46:21 INFO  Utils.ApiClient - GET request sent to endpoint: /brands/01jsqj2f9y22zyncgqh9p73f1e
 2025-04-26 01:46:22 INFO  Steps.BrandSteps - Brand deleted successfully with ID: 01jsqj2f9y22zyncgqh9p73f1e
+2025-04-26 19:40:04 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 19:40:04 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 19:40:06 INFO  Utils.ApiClient - POST request sent to endpoint: /brands
+2025-04-26 19:40:07 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jssfgxb3yp9dnnbf3cmzfw7b
+2025-04-26 19:40:07 INFO  Utils.ApiClient - PUT request sent to endpoint: /brands/01jssfgxb3yp9dnnbf3cmzfw7b
+2025-04-26 19:40:07 INFO  Utils.ApiClient - GET request sent to endpoint: /brands/01jssfgxb3yp9dnnbf3cmzfw7b
+2025-04-26 19:40:08 INFO  Steps.BrandSteps - Brand updated successfully with ID: 01jssfgxb3yp9dnnbf3cmzfw7b
+2025-04-26 19:40:08 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-26 19:40:08 INFO  Steps.CategorySteps - Category created successfully with ID: 01jssfgz1e12mx2ytvgfq3ajp2
+2025-04-26 19:40:08 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-26 19:40:09 INFO  Steps.CategorySteps - Category created successfully with ID: 01jssfgzg1czy0tsx0erkfcj9m
+2025-04-26 19:40:09 INFO  Utils.ApiClient - PUT request sent to endpoint: /categories/01jssfgzg1czy0tsx0erkfcj9m
+2025-04-26 19:40:09 INFO  Utils.ApiClient - GET request sent to endpoint: /categories/tree/01jssfgzg1czy0tsx0erkfcj9m
+2025-04-26 19:40:10 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jssfgz1e12mx2ytvgfq3ajp2
+2025-04-26 19:40:10 INFO  Steps.CategorySteps - Category deletion failed: Seems like this category is used elsewhere.
+2025-04-26 19:40:11 INFO  Utils.ApiClient - POST request sent to endpoint: /products
+2025-04-26 19:40:12 INFO  Steps.ProductSteps - Product created successfully with ID: 01jssfh23dg88c7kmk313rab1x
+2025-04-26 19:40:12 INFO  Utils.ApiClient - PATCH request sent to endpoint: /products/01jssfh23dg88c7kmk313rab1x
+2025-04-26 19:40:12 INFO  Utils.ApiClient - GET request sent to endpoint: /products/01jssfh23dg88c7kmk313rab1x
+2025-04-26 19:40:12 INFO  Steps.ProductSteps - Product updated successfully with ID: 01jssfh23dg88c7kmk313rab1x
+2025-04-26 19:40:12 INFO  Utils.ApiClient - DELETE request sent to endpoint: /products/01jssfh23dg88c7kmk313rab1x
+2025-04-26 19:40:13 INFO  Utils.ApiClient - GET request sent to endpoint: /products/01jssfh23dg88c7kmk313rab1x
+2025-04-26 19:40:14 INFO  Steps.ProductSteps - Product deleted successfully with ID: 01jssfh23dg88c7kmk313rab1x
+2025-04-26 19:40:14 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jssfgzg1czy0tsx0erkfcj9m
+2025-04-26 19:40:14 INFO  Utils.ApiClient - GET request sent to endpoint: /categories/tree/01jssfgzg1czy0tsx0erkfcj9m
+2025-04-26 19:40:14 INFO  Steps.CategorySteps - Category deleted successfully with ID: 01jssfgzg1czy0tsx0erkfcj9m
+2025-04-26 19:40:14 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jssfgz1e12mx2ytvgfq3ajp2
+2025-04-26 19:40:15 INFO  Utils.ApiClient - GET request sent to endpoint: /categories/tree/01jssfgz1e12mx2ytvgfq3ajp2
+2025-04-26 19:40:15 INFO  Steps.CategorySteps - Category deleted successfully with ID: 01jssfgz1e12mx2ytvgfq3ajp2
+2025-04-26 19:40:15 INFO  Utils.ApiClient - DELETE request sent to endpoint: /brands/01jssfgxb3yp9dnnbf3cmzfw7b
+2025-04-26 19:40:16 INFO  Utils.ApiClient - GET request sent to endpoint: /brands/01jssfgxb3yp9dnnbf3cmzfw7b
+2025-04-26 19:40:16 INFO  Steps.BrandSteps - Brand deleted successfully with ID: 01jssfgxb3yp9dnnbf3cmzfw7b
+2025-04-26 20:05:06 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 20:05:06 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 20:05:09 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 20:44:02 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 20:44:02 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 20:44:04 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 20:44:05 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssk61f4crg2p402112h325e
+2025-04-26 20:46:51 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 20:46:51 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 20:46:53 INFO  Utils.ApiClient - GET request sent to endpoint: /products
+2025-04-26 20:47:30 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 20:47:30 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 20:47:32 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 20:47:32 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jsskcc8bayx4h1hnjbxyd22b
+2025-04-26 20:48:30 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 20:48:30 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 20:48:33 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 20:48:33 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jsske7jh35gahxntmndmnzn1
+2025-04-26 20:49:04 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 20:49:04 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 20:49:07 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 20:49:07 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jsskf9589qvd9mk5ga8j180k
+2025-04-26 20:49:08 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jsskf9589qvd9mk5ga8j180k
+2025-04-26 20:49:09 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jsskf9589qvd9mk5ga8j180k/product/quantity
+2025-04-26 20:49:52 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 20:49:52 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 20:49:54 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 20:49:54 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jsskgpk4ttkgdkb7vy7zg95t
+2025-04-26 20:49:55 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jsskgpk4ttkgdkb7vy7zg95t
+2025-04-26 20:49:55 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jsskgpk4ttkgdkb7vy7zg95t/product/quantity
+2025-04-26 20:50:54 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 20:50:54 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 20:50:56 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 20:50:56 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jsskjk9s5hf2gw8m31f6awjv
+2025-04-26 20:50:57 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jsskjk9s5hf2gw8m31f6awjv
+2025-04-26 20:50:57 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jsskjk9s5hf2gw8m31f6awjv/product/quantity
+2025-04-26 20:50:58 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jsskjk9s5hf2gw8m31f6awjv
+2025-04-26 20:51:46 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 20:51:46 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 20:51:47 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 20:51:48 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jsskm5pmd8ba4a1bp28bfgfz
+2025-04-26 20:51:48 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jsskm5pmd8ba4a1bp28bfgfz
+2025-04-26 20:51:49 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jsskm5pmd8ba4a1bp28bfgfz/product/quantity
+2025-04-26 20:51:49 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jsskm5pmd8ba4a1bp28bfgfz
+2025-04-26 20:51:49 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jsskm5pmd8ba4a1bp28bfgfz
+2025-04-26 20:59:06 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 20:59:06 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 20:59:08 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 20:59:08 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssm1kz57b0qj3nzq9k8p2h0
+2025-04-26 20:59:09 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssm1kz57b0qj3nzq9k8p2h0
+2025-04-26 20:59:09 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jssm1kz57b0qj3nzq9k8p2h0/product/quantity
+2025-04-26 20:59:10 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jssm1kz57b0qj3nzq9k8p2h0
+2025-04-26 20:59:11 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jssm1kz57b0qj3nzq9k8p2h0
+2025-04-26 20:59:47 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 20:59:47 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 20:59:49 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 20:59:49 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssm2w3286knh883edrc89hz
+2025-04-26 20:59:50 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssm2w3286knh883edrc89hz
+2025-04-26 20:59:51 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jssm2w3286knh883edrc89hz/product/quantity
+2025-04-26 20:59:51 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jssm2w3286knh883edrc89hz
+2025-04-26 20:59:52 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jssm2w3286knh883edrc89hz
+2025-04-26 21:05:10 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 21:05:10 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 21:05:12 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 21:05:13 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssmcr0e1eyfg348jfshvza5
+2025-04-26 21:06:21 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 21:06:21 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 21:06:23 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 21:06:24 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssmex63hzscj9z9940h4ktr
+2025-04-26 21:07:25 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 21:07:25 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 21:07:27 INFO  Utils.ApiClient - GET request sent to endpoint: /products
+2025-04-26 21:07:55 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 21:07:56 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 21:07:58 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 21:07:58 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssmhs5gv5bkebj6k2f5b0d1
+2025-04-26 21:07:58 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssmhs5gv5bkebj6k2f5b0d1
+2025-04-26 21:07:59 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jssmhs5gv5bkebj6k2f5b0d1/product/quantity
+2025-04-26 21:12:22 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 21:12:22 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 21:12:24 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 21:12:25 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssmsxv22vry5whfgerkr1fy
+2025-04-26 21:12:26 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssmsxv22vry5whfgerkr1fy
+2025-04-26 21:12:26 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jssmsxv22vry5whfgerkr1fy/product/quantity
+2025-04-26 21:15:25 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 21:15:25 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 21:15:27 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 21:15:28 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssmzgat8terwh25qn9w1dqt
+2025-04-26 21:15:28 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssmzgat8terwh25qn9w1dqt
+2025-04-26 21:15:29 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jssmzgat8terwh25qn9w1dqt/product/quantity
+2025-04-26 21:15:29 INFO  Utils.ApiClient - GET request sent to endpoint: /carts
+2025-04-26 21:16:33 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 21:16:33 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 21:16:36 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 21:16:36 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssn1k0cnd7drvvy6vfvttgy
+2025-04-26 21:16:36 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssn1k0cnd7drvvy6vfvttgy
+2025-04-26 21:16:37 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jssn1k0cnd7drvvy6vfvttgy/product/quantity
+2025-04-26 21:16:37 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jssn1k0cnd7drvvy6vfvttgy
+2025-04-26 21:19:42 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 21:19:43 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 21:19:45 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 21:19:45 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssn7bnmnh9w93tsrp41z8aq
+2025-04-26 21:19:46 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssn7bnmnh9w93tsrp41z8aq
+2025-04-26 21:19:46 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jssn7bnmnh9w93tsrp41z8aq/product/quantity
+2025-04-26 21:19:47 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jssn7bnmnh9w93tsrp41z8aq
+2025-04-26 21:22:03 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 21:22:03 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 21:22:06 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 21:22:07 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssnbp1h2sc4khnsq6dwzeya
+2025-04-26 21:22:07 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssnbp1h2sc4khnsq6dwzeya
+2025-04-26 21:22:08 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jssnbp1h2sc4khnsq6dwzeya/product/quantity
+2025-04-26 21:22:08 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jssnbp1h2sc4khnsq6dwzeya
+2025-04-26 21:34:12 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 21:34:12 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 21:34:14 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 21:34:14 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssp1wk1sbjqw770s81pcp6e
+2025-04-26 21:34:15 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssp1wk1sbjqw770s81pcp6e
+2025-04-26 21:34:15 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jssp1wk1sbjqw770s81pcp6e/product/quantity
+2025-04-26 21:36:19 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 21:36:19 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 21:36:21 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 21:36:21 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssp5rc93n0jdbj174k0dw9x
+2025-04-26 21:36:22 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssp5rc93n0jdbj174k0dw9x
+2025-04-26 21:36:22 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jssp5rc93n0jdbj174k0dw9x/product/quantity
+2025-04-26 21:36:23 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jssp5rc93n0jdbj174k0dw9x
+2025-04-26 21:36:23 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jssp5rc93n0jdbj174k0dw9x
+2025-04-26 21:37:38 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 21:37:38 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 21:37:40 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 21:37:40 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssp85ybm0k52j6az9vxapj9
+2025-04-26 21:37:41 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssp85ybm0k52j6az9vxapj9
+2025-04-26 21:37:41 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jssp85ybm0k52j6az9vxapj9/product/quantity
+2025-04-26 21:37:42 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jssp85ybm0k52j6az9vxapj9
+2025-04-26 21:37:44 INFO  Utils.ApiClient - DELETE request sent to endpoint: /carts/01jssp85ybm0k52j6az9vxapj9/product/01JSSM3QCNSPBMFWG8V3HJVKYW
+2025-04-26 21:38:55 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 21:38:55 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 21:38:57 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 21:38:57 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jsspagtp06vh3ysprt2dd0xg
+2025-04-26 21:38:58 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jsspagtp06vh3ysprt2dd0xg
+2025-04-26 21:38:58 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jsspagtp06vh3ysprt2dd0xg/product/quantity
+2025-04-26 21:38:59 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jsspagtp06vh3ysprt2dd0xg
+2025-04-26 21:39:00 INFO  Utils.ApiClient - DELETE request sent to endpoint: /carts/01jsspagtp06vh3ysprt2dd0xg/product/01JSSM3QCNSPBMFWG8V3HJVKYW
+2025-04-26 21:41:00 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 21:41:01 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 21:41:02 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 21:41:03 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jsspebbnjman26ja7qqg5qf8
+2025-04-26 21:41:03 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jsspebbnjman26ja7qqg5qf8
+2025-04-26 21:41:04 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jsspebbnjman26ja7qqg5qf8/product/quantity
+2025-04-26 21:41:04 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jsspebbnjman26ja7qqg5qf8
+2025-04-26 21:41:04 INFO  Utils.ApiClient - DELETE request sent to endpoint: /carts/01jsspebbnjman26ja7qqg5qf8/product/01JSSM3QCNSPBMFWG8V3HJVKYW
+2025-04-26 21:41:05 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jsspebbnjman26ja7qqg5qf8
+2025-04-26 21:41:05 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jsspebbnjman26ja7qqg5qf8
+2025-04-26 21:41:05 INFO  Utils.ApiClient - DELETE request sent to endpoint: /carts/01jsspebbnjman26ja7qqg5qf8
+2025-04-26 21:51:06 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 21:51:07 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 21:53:54 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 21:53:54 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 21:56:06 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 21:56:06 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 21:58:31 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 21:58:32 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 22:00:54 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 22:00:54 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 22:08:02 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 22:08:02 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 22:10:12 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 22:10:12 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 22:10:53 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 22:10:53 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 22:58:46 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 22:58:46 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 23:01:11 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 23:01:11 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 23:03:51 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 23:03:51 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 23:04:59 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 23:04:59 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 23:12:16 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 23:12:16 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 23:16:00 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 23:16:00 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 23:16:50 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 23:16:50 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 23:18:05 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 23:18:05 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 23:18:14 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 23:18:17 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssw0atwq9aeg5nces88dxfn
+2025-04-26 23:18:17 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssw0atwq9aeg5nces88dxfn
+2025-04-26 23:18:18 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jssw0atwq9aeg5nces88dxfn/product/quantity
+2025-04-26 23:18:21 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jssw0atwq9aeg5nces88dxfn
+2025-04-26 23:19:24 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 23:19:24 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 23:20:22 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 23:20:23 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 23:20:30 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 23:20:32 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssw4fb8eh320gy21ge7t9wz
+2025-04-26 23:20:33 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssw4fb8eh320gy21ge7t9wz
+2025-04-26 23:20:59 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 23:20:59 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 23:21:09 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 23:21:11 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssw5pxeaw64xd3rrg3t4ek8
+2025-04-26 23:21:12 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssw5pxeaw64xd3rrg3t4ek8
+2025-04-26 23:23:54 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 23:23:54 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 23:23:59 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 23:24:00 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jsswavxx35jk7vg9g9v3abxe
+2025-04-26 23:24:01 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jsswavxx35jk7vg9g9v3abxe
+2025-04-26 23:24:03 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jsswavxx35jk7vg9g9v3abxe/product/quantity
+2025-04-26 23:24:04 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jsswavxx35jk7vg9g9v3abxe
+2025-04-26 23:24:06 INFO  Utils.ApiClient - DELETE request sent to endpoint: /carts/01jsswavxx35jk7vg9g9v3abxe/product/01JSSTZCER8F2CJQFZ8JS27DMH
+2025-04-26 23:24:07 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jsswavxx35jk7vg9g9v3abxe
+2025-04-26 23:24:11 INFO  Utils.ApiClient - POST request sent to endpoint: /invoices
+2025-04-26 23:28:01 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 23:28:01 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 23:28:08 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 23:28:08 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 23:28:13 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 23:28:15 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jsswjmxtn9dr37wdzfhnccgm
+2025-04-26 23:28:16 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jsswjmxtn9dr37wdzfhnccgm
+2025-04-26 23:28:16 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jsswjmxtn9dr37wdzfhnccgm/product/quantity
+2025-04-26 23:28:18 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jsswjmxtn9dr37wdzfhnccgm
+2025-04-26 23:28:19 INFO  Utils.ApiClient - DELETE request sent to endpoint: /carts/01jsswjmxtn9dr37wdzfhnccgm/product/01JSSTZCEPDFVTC70H5HV53R7V
+2025-04-26 23:29:19 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 23:29:19 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 23:29:26 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 23:29:26 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jsswmtsebsvke2wz3qadkv0h
+2025-04-26 23:29:27 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jsswmtsebsvke2wz3qadkv0h
+2025-04-26 23:29:31 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jsswmtsebsvke2wz3qadkv0h/product/quantity
+2025-04-26 23:29:31 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jsswmtsebsvke2wz3qadkv0h
+2025-04-26 23:34:55 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 23:34:55 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 23:35:01 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 23:35:03 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jsswz374tpehy8h3bs5pdvnh
+2025-04-26 23:35:05 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jsswz374tpehy8h3bs5pdvnh
+2025-04-26 23:35:07 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jsswz374tpehy8h3bs5pdvnh/product/quantity
+2025-04-26 23:35:08 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jsswz374tpehy8h3bs5pdvnh
+2025-04-26 23:35:09 INFO  Utils.ApiClient - DELETE request sent to endpoint: /carts/01jsswz374tpehy8h3bs5pdvnh/product/01JSSTZCEDPJX3FM4Y814KF77S
+2025-04-26 23:35:11 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jsswz374tpehy8h3bs5pdvnh
+2025-04-26 23:35:17 INFO  Utils.ApiClient - POST request sent to endpoint: /invoices
+2025-04-26 23:38:57 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 23:38:57 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 23:39:00 INFO  Utils.ApiClient - POST request sent to endpoint: /brands
+2025-04-26 23:39:02 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jssx6cdn119fmwb2px2tk7bg
+2025-04-26 23:39:02 INFO  Utils.ApiClient - PUT request sent to endpoint: /brands/01jssx6cdn119fmwb2px2tk7bg
+2025-04-26 23:39:02 INFO  Utils.ApiClient - GET request sent to endpoint: /brands/01jssx6cdn119fmwb2px2tk7bg
+2025-04-26 23:39:06 INFO  Steps.BrandSteps - Brand updated successfully with ID: 01jssx6cdn119fmwb2px2tk7bg
+2025-04-26 23:39:06 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-26 23:39:09 INFO  Steps.CategorySteps - Category created successfully with ID: 01jssx6jswrqk7g2r0zxppnf20
+2025-04-26 23:39:09 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-26 23:39:10 INFO  Steps.CategorySteps - Category created successfully with ID: 01jssx6mgccjvw8pzgs477wzh8
+2025-04-26 23:39:10 INFO  Utils.ApiClient - PUT request sent to endpoint: /categories/01jssx6mgccjvw8pzgs477wzh8
+2025-04-26 23:39:14 INFO  Utils.ApiClient - GET request sent to endpoint: /categories/tree/01jssx6mgccjvw8pzgs477wzh8
+2025-04-26 23:39:14 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jssx6jswrqk7g2r0zxppnf20
+2025-04-26 23:39:15 INFO  Steps.CategorySteps - Category deletion failed: Seems like this category is used elsewhere.
+2025-04-26 23:39:16 INFO  Utils.ApiClient - POST request sent to endpoint: /products
+2025-04-26 23:39:17 INFO  Steps.ProductSteps - Product created successfully with ID: 01jssx6va07whw4kp0et8m4d8q
+2025-04-26 23:39:17 INFO  Utils.ApiClient - PATCH request sent to endpoint: /products/01jssx6va07whw4kp0et8m4d8q
+2025-04-26 23:39:18 INFO  Utils.ApiClient - GET request sent to endpoint: /products/01jssx6va07whw4kp0et8m4d8q
+2025-04-26 23:39:18 INFO  Steps.ProductSteps - Product updated successfully with ID: 01jssx6va07whw4kp0et8m4d8q
+2025-04-26 23:39:18 INFO  Utils.ApiClient - DELETE request sent to endpoint: /products/01jssx6va07whw4kp0et8m4d8q
+2025-04-26 23:39:19 INFO  Utils.ApiClient - GET request sent to endpoint: /products/01jssx6va07whw4kp0et8m4d8q
+2025-04-26 23:39:19 INFO  Steps.ProductSteps - Product deleted successfully with ID: 01jssx6va07whw4kp0et8m4d8q
+2025-04-26 23:39:19 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jssx6mgccjvw8pzgs477wzh8
+2025-04-26 23:39:21 INFO  Utils.ApiClient - GET request sent to endpoint: /categories/tree/01jssx6mgccjvw8pzgs477wzh8
+2025-04-26 23:39:21 INFO  Steps.CategorySteps - Category deleted successfully with ID: 01jssx6mgccjvw8pzgs477wzh8
+2025-04-26 23:39:21 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jssx6jswrqk7g2r0zxppnf20
+2025-04-26 23:39:22 INFO  Utils.ApiClient - GET request sent to endpoint: /categories/tree/01jssx6jswrqk7g2r0zxppnf20
+2025-04-26 23:39:23 INFO  Steps.CategorySteps - Category deleted successfully with ID: 01jssx6jswrqk7g2r0zxppnf20
+2025-04-26 23:39:23 INFO  Utils.ApiClient - DELETE request sent to endpoint: /brands/01jssx6cdn119fmwb2px2tk7bg
+2025-04-26 23:39:24 INFO  Utils.ApiClient - GET request sent to endpoint: /brands/01jssx6cdn119fmwb2px2tk7bg
+2025-04-26 23:39:25 INFO  Steps.BrandSteps - Brand deleted successfully with ID: 01jssx6cdn119fmwb2px2tk7bg
+2025-04-26 23:39:37 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 23:39:37 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 23:39:43 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 23:39:44 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssx7nf619jevw9cmja6wk8g
+2025-04-26 23:39:45 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssx7nf619jevw9cmja6wk8g
+2025-04-26 23:39:47 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jssx7nf619jevw9cmja6wk8g/product/quantity
+2025-04-26 23:39:48 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jssx7nf619jevw9cmja6wk8g
+2025-04-26 23:39:49 INFO  Utils.ApiClient - DELETE request sent to endpoint: /carts/01jssx7nf619jevw9cmja6wk8g/product/01JSSTZCEDPJX3FM4Y814KF77S
+2025-04-26 23:39:50 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jssx7nf619jevw9cmja6wk8g
+2025-04-26 23:39:52 INFO  Utils.ApiClient - POST request sent to endpoint: /invoices
+2025-04-26 23:41:12 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 23:41:12 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 23:41:20 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 23:41:20 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssxam6wepgy4v4b5ng9dgwm
+2025-04-26 23:41:28 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssxam6wepgy4v4b5ng9dgwm
+2025-04-26 23:41:29 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jssxam6wepgy4v4b5ng9dgwm/product/quantity
+2025-04-26 23:41:31 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jssxam6wepgy4v4b5ng9dgwm
+2025-04-26 23:41:32 INFO  Utils.ApiClient - DELETE request sent to endpoint: /carts/01jssxam6wepgy4v4b5ng9dgwm/product/01JSSTZCEDPJX3FM4Y814KF77S
+2025-04-26 23:41:32 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jssxam6wepgy4v4b5ng9dgwm
+2025-04-26 23:41:34 INFO  Utils.ApiClient - POST request sent to endpoint: /invoices
+2025-04-26 23:46:14 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 23:46:14 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 23:46:26 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 23:46:27 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssxkzc2yecn7zh2tk997xfk
+2025-04-26 23:46:29 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssxkzc2yecn7zh2tk997xfk
+2025-04-26 23:46:30 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jssxkzc2yecn7zh2tk997xfk/product/quantity
+2025-04-26 23:46:31 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jssxkzc2yecn7zh2tk997xfk
+2025-04-26 23:46:32 INFO  Utils.ApiClient - DELETE request sent to endpoint: /carts/01jssxkzc2yecn7zh2tk997xfk/product/01JSSTZCEDPJX3FM4Y814KF77S
+2025-04-26 23:46:36 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jssxkzc2yecn7zh2tk997xfk
+2025-04-26 23:52:35 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 23:52:35 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 23:52:42 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 23:52:45 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssxzfv781r4ezjhdhjxe7c5
+2025-04-26 23:52:46 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssxzfv781r4ezjhdhjxe7c5
+2025-04-26 23:52:48 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jssxzfv781r4ezjhdhjxe7c5/product/quantity
+2025-04-26 23:52:49 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jssxzfv781r4ezjhdhjxe7c5
+2025-04-26 23:52:50 INFO  Utils.ApiClient - DELETE request sent to endpoint: /carts/01jssxzfv781r4ezjhdhjxe7c5/product/01JSSTZCEDPJX3FM4Y814KF77S
+2025-04-26 23:52:51 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jssxzfv781r4ezjhdhjxe7c5
+2025-04-26 23:58:22 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-26 23:58:22 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-26 23:58:28 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-26 23:58:29 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssya0cfk4jspdw0sw99xjje
+2025-04-26 23:58:29 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssya0cfk4jspdw0sw99xjje
+2025-04-26 23:58:32 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jssya0cfk4jspdw0sw99xjje/product/quantity
+2025-04-26 23:58:33 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jssya0cfk4jspdw0sw99xjje
+2025-04-26 23:58:34 INFO  Utils.ApiClient - DELETE request sent to endpoint: /carts/01jssya0cfk4jspdw0sw99xjje/product/01JSSTZCEDPJX3FM4Y814KF77S
+2025-04-26 23:58:36 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jssya0cfk4jspdw0sw99xjje
+2025-04-27 00:00:32 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-27 00:00:32 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-27 00:00:36 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-27 00:00:41 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssye0738yc8v1hr48pzv4ft
+2025-04-27 00:00:41 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssye0738yc8v1hr48pzv4ft
+2025-04-27 00:00:43 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jssye0738yc8v1hr48pzv4ft/product/quantity
+2025-04-27 00:00:43 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jssye0738yc8v1hr48pzv4ft
+2025-04-27 00:00:44 INFO  Utils.ApiClient - DELETE request sent to endpoint: /carts/01jssye0738yc8v1hr48pzv4ft/product/01JSSYD9MAT2R065FSF4JV2QG4
+2025-04-27 00:00:45 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jssye0738yc8v1hr48pzv4ft
+2025-04-27 00:07:42 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-27 00:07:43 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-27 00:07:54 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-27 00:07:59 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssyvcx4ts5jh56gknt7rqgv
+2025-04-27 00:08:01 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssyvcx4ts5jh56gknt7rqgv
+2025-04-27 00:08:05 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jssyvcx4ts5jh56gknt7rqgv/product/quantity
+2025-04-27 00:08:06 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jssyvcx4ts5jh56gknt7rqgv
+2025-04-27 00:08:06 INFO  Utils.ApiClient - DELETE request sent to endpoint: /carts/01jssyvcx4ts5jh56gknt7rqgv/product/01JSSYD9MAT2R065FSF4JV2QG4
+2025-04-27 00:08:07 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jssyvcx4ts5jh56gknt7rqgv
+2025-04-27 00:08:09 INFO  Utils.ApiClient - POST request sent to endpoint: /invoices
+2025-04-27 00:08:13 INFO  Utils.ApiClient - GET request sent to endpoint: /invoices/null/download-pdf
+2025-04-27 00:10:05 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-27 00:10:06 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-27 00:10:14 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-27 00:10:15 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssyzhw9zrj3q4zh25tjjw99
+2025-04-27 00:10:16 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssyzhw9zrj3q4zh25tjjw99
+2025-04-27 00:10:19 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jssyzhw9zrj3q4zh25tjjw99/product/quantity
+2025-04-27 00:10:21 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jssyzhw9zrj3q4zh25tjjw99
+2025-04-27 00:10:24 INFO  Utils.ApiClient - DELETE request sent to endpoint: /carts/01jssyzhw9zrj3q4zh25tjjw99/product/01JSSYD9MAT2R065FSF4JV2QG4
+2025-04-27 00:10:25 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jssyzhw9zrj3q4zh25tjjw99
+2025-04-27 00:10:27 INFO  Utils.ApiClient - POST request sent to endpoint: /invoices
+2025-04-27 00:10:28 INFO  Utils.ApiClient - GET request sent to endpoint: /invoices/null/download-pdf
+2025-04-27 00:15:15 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-27 00:15:15 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-27 00:15:21 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-27 00:15:24 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssz8zdc7g86qce89te8y399
+2025-04-27 00:15:25 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jssz8zdc7g86qce89te8y399
+2025-04-27 00:15:26 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jssz8zdc7g86qce89te8y399/product/quantity
+2025-04-27 00:15:26 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jssz8zdc7g86qce89te8y399
+2025-04-27 00:15:27 INFO  Utils.ApiClient - DELETE request sent to endpoint: /carts/01jssz8zdc7g86qce89te8y399/product/01JSSYD9MAT2R065FSF4JV2QG4
+2025-04-27 00:15:29 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jssz8zdc7g86qce89te8y399
+2025-04-27 00:15:32 INFO  Utils.ApiClient - POST request sent to endpoint: /invoices
+2025-04-27 00:15:33 INFO  Utils.ApiClient - GET request sent to endpoint: /invoices/null/download-pdf
+2025-04-27 00:16:43 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-27 00:16:43 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-27 00:16:48 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-27 00:16:49 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jsszbjh8hvsbe5a4vpr9p519
+2025-04-27 00:16:50 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jsszbjh8hvsbe5a4vpr9p519
+2025-04-27 00:16:53 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jsszbjh8hvsbe5a4vpr9p519/product/quantity
+2025-04-27 00:16:55 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jsszbjh8hvsbe5a4vpr9p519
+2025-04-27 00:16:56 INFO  Utils.ApiClient - DELETE request sent to endpoint: /carts/01jsszbjh8hvsbe5a4vpr9p519/product/01JSSYD9MAT2R065FSF4JV2QG4
+2025-04-27 00:16:56 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jsszbjh8hvsbe5a4vpr9p519
+2025-04-27 00:17:04 INFO  Utils.ApiClient - POST request sent to endpoint: /invoices
+2025-04-27 00:17:05 INFO  Utils.ApiClient - GET request sent to endpoint: /invoices/null/download-pdf
+2025-04-27 00:18:07 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-27 00:18:07 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-27 00:18:36 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-27 00:18:38 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jsszexdwtvdjvmnybwf65jmd
+2025-04-27 00:18:39 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jsszexdwtvdjvmnybwf65jmd
+2025-04-27 00:18:40 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jsszexdwtvdjvmnybwf65jmd/product/quantity
+2025-04-27 00:18:40 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jsszexdwtvdjvmnybwf65jmd
+2025-04-27 00:18:42 INFO  Utils.ApiClient - DELETE request sent to endpoint: /carts/01jsszexdwtvdjvmnybwf65jmd/product/01JSSYD9MAT2R065FSF4JV2QG4
+2025-04-27 00:18:44 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jsszexdwtvdjvmnybwf65jmd
+2025-04-27 00:18:50 INFO  Utils.ApiClient - POST request sent to endpoint: /invoices
+2025-04-27 00:18:54 INFO  Utils.ApiClient - GET request sent to endpoint: /invoices/INV-2025000007/download-pdf
+2025-04-27 00:29:44 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-04-27 00:29:45 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-04-27 00:29:45 INFO  Steps.UsersSteps - Logging in with username: admin@practicesoftwaretesting.com
+2025-04-27 00:29:48 INFO  Utils.ApiClient - POST request sent to endpoint: /brands
+2025-04-27 00:29:49 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jst03c68hrj27ecbdp0aj03n
+2025-04-27 00:29:49 INFO  Utils.ApiClient - PUT request sent to endpoint: /brands/01jst03c68hrj27ecbdp0aj03n
+2025-04-27 00:29:51 INFO  Utils.ApiClient - GET request sent to endpoint: /brands/01jst03c68hrj27ecbdp0aj03n
+2025-04-27 00:29:54 INFO  Steps.BrandSteps - Brand updated successfully with ID: 01jst03c68hrj27ecbdp0aj03n
+2025-04-27 00:29:54 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-27 00:29:55 INFO  Steps.CategorySteps - Category created successfully with ID: 01jst03j1fvtbyevy012m90nq6
+2025-04-27 00:29:55 INFO  Utils.ApiClient - POST request sent to endpoint: /categories
+2025-04-27 00:29:55 INFO  Steps.CategorySteps - Category created successfully with ID: 01jst03jkzmczw9n9by57a577f
+2025-04-27 00:29:55 INFO  Utils.ApiClient - PUT request sent to endpoint: /categories/01jst03jkzmczw9n9by57a577f
+2025-04-27 00:29:57 INFO  Utils.ApiClient - GET request sent to endpoint: /categories/tree/01jst03jkzmczw9n9by57a577f
+2025-04-27 00:29:58 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jst03j1fvtbyevy012m90nq6
+2025-04-27 00:29:59 INFO  Steps.CategorySteps - Category deletion failed: Seems like this category is used elsewhere.
+2025-04-27 00:30:00 INFO  Utils.ApiClient - POST request sent to endpoint: /products
+2025-04-27 00:30:01 INFO  Steps.ProductSteps - Product created successfully with ID: 01jst03rdvtvvkrkqgq4cw4hg2
+2025-04-27 00:30:01 INFO  Utils.ApiClient - PATCH request sent to endpoint: /products/01jst03rdvtvvkrkqgq4cw4hg2
+2025-04-27 00:30:03 INFO  Utils.ApiClient - GET request sent to endpoint: /products/01jst03rdvtvvkrkqgq4cw4hg2
+2025-04-27 00:30:04 INFO  Steps.ProductSteps - Product updated successfully with ID: 01jst03rdvtvvkrkqgq4cw4hg2
+2025-04-27 00:30:04 INFO  Utils.ApiClient - DELETE request sent to endpoint: /products/01jst03rdvtvvkrkqgq4cw4hg2
+2025-04-27 00:30:05 INFO  Utils.ApiClient - GET request sent to endpoint: /products/01jst03rdvtvvkrkqgq4cw4hg2
+2025-04-27 00:30:06 INFO  Steps.ProductSteps - Product deleted successfully with ID: 01jst03rdvtvvkrkqgq4cw4hg2
+2025-04-27 00:30:06 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jst03jkzmczw9n9by57a577f
+2025-04-27 00:30:08 INFO  Utils.ApiClient - GET request sent to endpoint: /categories/tree/01jst03jkzmczw9n9by57a577f
+2025-04-27 00:30:08 INFO  Steps.CategorySteps - Category deleted successfully with ID: 01jst03jkzmczw9n9by57a577f
+2025-04-27 00:30:08 INFO  Utils.ApiClient - DELETE request sent to endpoint: /categories/01jst03j1fvtbyevy012m90nq6
+2025-04-27 00:30:10 INFO  Utils.ApiClient - GET request sent to endpoint: /categories/tree/01jst03j1fvtbyevy012m90nq6
+2025-04-27 00:30:11 INFO  Steps.CategorySteps - Category deleted successfully with ID: 01jst03j1fvtbyevy012m90nq6
+2025-04-27 00:30:11 INFO  Utils.ApiClient - DELETE request sent to endpoint: /brands/01jst03c68hrj27ecbdp0aj03n
+2025-04-27 00:30:12 INFO  Utils.ApiClient - GET request sent to endpoint: /brands/01jst03c68hrj27ecbdp0aj03n
+2025-04-27 00:30:16 INFO  Steps.BrandSteps - Brand deleted successfully with ID: 01jst03c68hrj27ecbdp0aj03n
+2025-04-27 00:30:17 INFO  Steps.UsersSteps - Logged out successfully
+2025-04-27 00:30:19 INFO  Steps.UsersSteps - User registered successfully
+2025-04-27 00:30:19 INFO  Steps.UsersSteps - Logging in with username: admin@practicesoftwaretesting.com
+2025-04-27 00:30:23 INFO  Utils.ApiClient - POST request sent to endpoint: /carts
+2025-04-27 00:30:24 INFO  Steps.CartSteps - Cart Created Succefully
+2025-04-27 00:30:24 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jst04ekzcbjatekp6necay7y
+2025-04-27 00:30:25 INFO  Steps.CartSteps - Product added to cart successfully
+2025-04-27 00:30:25 INFO  Utils.ApiClient - POST request sent to endpoint: /carts/01jst04ekzcbjatekp6necay7y
+2025-04-27 00:30:26 INFO  Steps.CartSteps - Product added to cart successfully
+2025-04-27 00:30:26 INFO  Utils.ApiClient - PUT request sent to endpoint: /carts/01jst04ekzcbjatekp6necay7y/product/quantity
+2025-04-27 00:30:26 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jst04ekzcbjatekp6necay7y
+2025-04-27 00:30:29 INFO  Steps.CartSteps - Product quantity updated successfully
+2025-04-27 00:30:29 INFO  Utils.ApiClient - DELETE request sent to endpoint: /carts/01jst04ekzcbjatekp6necay7y/product/01JSSYD9MAT2R065FSF4JV2QG4
+2025-04-27 00:30:29 INFO  Utils.ApiClient - GET request sent to endpoint: /carts/01jst04ekzcbjatekp6necay7y
+2025-04-27 00:30:30 INFO  Steps.CartSteps - Product deleted from cart successfully
+2025-04-27 00:30:33 INFO  Utils.Utils_APis - Payment completed successfully
+2025-04-27 00:30:33 INFO  Steps.UsersSteps - Logging in with username: admin@practicesoftwaretesting.com
+2025-04-27 00:30:34 INFO  Utils.ApiClient - POST request sent to endpoint: /invoices
+2025-04-27 00:30:38 INFO  Steps.InvoicesSteps - Invoice created successfully 

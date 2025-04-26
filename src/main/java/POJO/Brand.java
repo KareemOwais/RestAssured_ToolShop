@@ -6,10 +6,12 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Brand {
+
     @JsonProperty("name")
     private String name;
     @JsonProperty("slug")
     private String slug;
+
     @JsonProperty("id")
     private String id;
     @JsonProperty("success")

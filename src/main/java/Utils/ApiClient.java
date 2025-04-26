@@ -30,12 +30,30 @@ public class ApiClient {
                 .body(body)
                 .post(Constants.BASEURL+ endpoint);
     }
+    public static Response sendPostRequestWithToken(Object body, String endpoint, String token) {
+        logger.info("POST request sent to endpoint: "+ endpoint);
+        return RestAssured
+                .given()
+                .contentType(io.restassured.http.ContentType.JSON)
+                .header("Authorization", "Bearer " + token)
+                .body(body)
+                .post(Constants.BASEURL+ endpoint);
+    }
 
     public static Response sendPutRequest(Object body, String endpoint) {
         logger.info("PUT request sent to endpoint: "+ endpoint);
         return RestAssured
                 .given()
                 .contentType(io.restassured.http.ContentType.JSON)
+                .body(body)
+                .put(Constants.BASEURL+ endpoint);
+    }
+    public static Response sendPutRequestWithToken(Object body, String endpoint, String token) {
+        logger.info("PUT request sent to endpoint: "+ endpoint);
+        return RestAssured
+                .given()
+                .contentType(io.restassured.http.ContentType.JSON)
+                .header("Authorization", "Bearer " + token)
                 .body(body)
                 .put(Constants.BASEURL+ endpoint);
     }
@@ -48,6 +66,15 @@ public class ApiClient {
                 .body(body)
                 .patch(Constants.BASEURL+ endpoint);
     }
+    public static Response sendPatchRequestWithToken(Object body, String endpoint, String token) {
+        logger.info("PATCH request sent to endpoint: "+ endpoint);
+        return RestAssured
+                .given()
+                .contentType(io.restassured.http.ContentType.JSON)
+                .header("Authorization", "Bearer " + token)
+                .body(body)
+                .patch(Constants.BASEURL+ endpoint);
+    }
 
     public static Response sendDeleteRequest(String endpoint , String token) {
         logger.info("DELETE request sent to endpoint: "+ endpoint);
@@ -55,6 +82,13 @@ public class ApiClient {
                 .given()
                 .contentType(io.restassured.http.ContentType.JSON)
                 .header("Authorization", "Bearer " + token)
+                .delete(Constants.BASEURL+ endpoint);
+    }
+    public static Response sendDeleteRequestWithoutToken(String endpoint) {
+        logger.info("DELETE request sent to endpoint: "+ endpoint);
+        return RestAssured
+                .given()
+                .contentType(io.restassured.http.ContentType.JSON)
                 .delete(Constants.BASEURL+ endpoint);
     }
 }
