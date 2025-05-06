@@ -25,7 +25,6 @@ public class Users {
     private String phone;
     @JsonProperty("dob")
     private String dob;
-
     @JsonIgnore
     @JsonProperty("token_type")
     private String token_type;

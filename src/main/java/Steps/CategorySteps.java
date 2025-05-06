@@ -1,7 +1,7 @@
 package Steps;
 
 import POJO.Category;
-import Utils.ApiClient;
+import Utils.RestClient;
 import Utils.Constants;
 import io.restassured.response.Response;
 import org.slf4j.Logger;
@@ -13,9 +13,9 @@ public class CategorySteps {
     public static String createCategoryAndValidate(String name, String slug , int statusCode) {
 
         Category category = new Category(name, slug);
-        Response response = ApiClient.sendPostRequest(category,Constants.Category_ENDPOINT);
+        Response response = RestClient.sendPostRequest(category,Constants.Category_ENDPOINT);
         if(statusCode == 201){
-        Assert.assertEquals(response.getStatusCode(), 201, "Category creation failed\n");
+        Assert.assertEquals(response.getStatusCode(), statusCode, "Category creation failed\n");
         category = response.as(Category.class);
         Assert.assertEquals(category.getName(), name, "Category name does not match\n");
         Assert.assertEquals(category.getSlug(), slug, "Category slug does not match\n");
@@ -23,13 +23,13 @@ public class CategorySteps {
         logger.info("Category created successfully with ID: " + category.getId());
         return category.getId();
         } else if(statusCode == 404){
-            Assert.assertEquals(response.getStatusCode(), 404, "Category creation failed\n");
+            Assert.assertEquals(response.getStatusCode(), statusCode, "Category creation failed\n");
             category = response.as(Category.class);
             Assert.assertEquals(category.getMessage(),"Requested item not found");
             logger.info("Endpoint not found");
             return null;
         } else if(statusCode == 405){
-            Assert.assertEquals(response.getStatusCode(), 405, "Category creation failed\n");
+            Assert.assertEquals(response.getStatusCode(), statusCode, "Category creation failed\n");
             category = response.as(Category.class);
             Assert.assertEquals(category.getMessage(),"Method is not allowed for the requested route");
             logger.info("Method is not allowed for the requested route");
@@ -42,9 +42,9 @@ public class CategorySteps {
     }
     public static String createCategoryAndValidate(String name, String slug,int statusCode , String parentId ) {
         Category category = new Category(name, slug , parentId);
-        Response response = ApiClient.sendPostRequest(category, Constants.Category_ENDPOINT);
+        Response response = RestClient.sendPostRequest(category, Constants.Category_ENDPOINT);
         if(statusCode == 201) {
-            Assert.assertEquals(response.getStatusCode(), 201, "Category creation failed\n");
+            Assert.assertEquals(response.getStatusCode(), statusCode, "Category creation failed\n");
             category = response.as(Category.class);
             Assert.assertEquals(category.getName(), name, "Category name does not match\n");
             Assert.assertEquals(category.getSlug(), slug, "Category slug does not match\n");
@@ -53,13 +53,13 @@ public class CategorySteps {
             return category.getId();
         }
         else if(statusCode == 404){
-            Assert.assertEquals(response.getStatusCode(), 404, "Category creation failed\n");
+            Assert.assertEquals(response.getStatusCode(), statusCode, "Category creation failed\n");
             category = response.as(Category.class);
             Assert.assertEquals(category.getMessage(),"Requested item not found");
             logger.info("Endpoint not found");
             return null;
         } else if(statusCode == 405){
-            Assert.assertEquals(response.getStatusCode(), 405, "Category creation failed\n");
+            Assert.assertEquals(response.getStatusCode(), statusCode, "Category creation failed\n");
             category = response.as(Category.class);
             Assert.assertEquals(category.getMessage(),"Method is not allowed for the requested route");
             logger.info("Method is not allowed for the requested route");
@@ -73,30 +73,30 @@ public class CategorySteps {
 
     public static void updateCategoryAndValidate(String id,String name, String slug , int statusCode) {
         Category category = new Category(name, slug);
-        Response response =  ApiClient.sendPutRequest(category, Constants.Category_ENDPOINT + "/" + id);
+        Response response =  RestClient.sendPutRequest(category, Constants.Category_ENDPOINT + "/" + id);
         response.prettyPrint();
         if(statusCode == 200) {
 
-            Assert.assertEquals(response.getStatusCode(), 200, "Category update failed\n");
+            Assert.assertEquals(response.getStatusCode(), statusCode, "Category update failed\n");
 
             category = response.as(Category.class);
             Assert.assertTrue(category.getSuccess(), "Category update failed\n");
 
-            response = ApiClient.sendGetRequest(Constants.Category_ENDPOINT + "/tree/" + id);
-            Assert.assertEquals(response.getStatusCode(), 200, "Category doesn't exist after update\n");
+            response = RestClient.sendGetRequest(Constants.Category_ENDPOINT + "/tree/" + id);
+            Assert.assertEquals(response.getStatusCode(), statusCode, "Category doesn't exist after update\n");
             category = response.as(Category.class);
 
             Assert.assertEquals(category.getName(), name, "Category name mismatch after update\n");
             Assert.assertEquals(category.getSlug(), slug, "Category slug mismatch after update\n");
         }
         else if(statusCode == 404){
-            Assert.assertEquals(response.getStatusCode(), 404, "Category update failed\n");
+            Assert.assertEquals(response.getStatusCode(), statusCode, "Category update failed\n");
             category = response.as(Category.class);
             Assert.assertEquals(category.getMessage(),"Requested item not found");
             logger.info("Category not found with ID: ");
         }
         else if(statusCode == 405){
-            Assert.assertEquals(response.getStatusCode(), 405, "Category update failed\n");
+            Assert.assertEquals(response.getStatusCode(), statusCode, "Category update failed\n");
             category = response.as(Category.class);
             Assert.assertEquals(category.getMessage(),"Method is not allowed for the requested route");
             logger.info("Method is not allowed for the requested route");
@@ -108,10 +108,10 @@ public class CategorySteps {
 
     public static void deleteCategoryAndValidate(String id, String token , int statusCode) {
 
-        Response response = ApiClient.sendDeleteRequest(Constants.Category_ENDPOINT+"/"+ id , token);
+        Response response = RestClient.sendDeleteRequestWithToken(Constants.Category_ENDPOINT+"/"+ id , token);
         if(statusCode == 204){
-            Assert.assertEquals(response.getStatusCode(), 204, "Category deletion failed\n");
-            response = ApiClient.sendGetRequest(Constants.Category_ENDPOINT + "/tree/" + id);
+            Assert.assertEquals(response.getStatusCode(), statusCode, "Category deletion failed\n");
+            response = RestClient.sendGetRequest(Constants.Category_ENDPOINT + "/tree/" + id);
             Assert.assertEquals(response.getStatusCode(), 404, "Category still exists after deletion\n");
             logger.info("Category deleted successfully with ID: " + id);
         }else if(statusCode == 409){

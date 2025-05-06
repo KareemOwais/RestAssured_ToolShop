@@ -1,35 +1,37 @@
-import POJO.Invoice;
+package Tests;
+
 import POJO.Users;
 import Steps.*;
 import Utils.*;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class EndToEndTest {
+import java.util.UUID;
+
+public class EndToEnd_PositiveTest {
 
     @Test
     public void END_TO_END_Admin(){
         String ParentCategoryID,BrandID,SubCategoryID,ProductID,ImageID;
-        Users user = UsersSteps.login(Constants.ADMIN_USERNAME, Constants.ADMIN_PASSWORD);
+        Users user = UsersSteps.login(Constants.ADMIN_USERNAME, Constants.ADMIN_PASSWORD,200);
         Constants.setToken(user.getToken());
 
-        BrandID= BrandSteps.createBrandAndValidate("Brand_Name_Test", "Brand_Slang_Test", 201);
+        BrandID= BrandSteps.createBrandAndValidate(UUID.randomUUID().toString(), UUID.randomUUID().toString(), 201);
 
-        BrandSteps.updateBrandAndValidate("Titan-Forge", "Titan-Forge", BrandID, 200);
+        BrandSteps.updateBrandAndValidate(UUID.randomUUID().toString(), UUID.randomUUID().toString(), BrandID, 200);
 
-        ParentCategoryID= CategorySteps.createCategoryAndValidate("Power-Tools-Test", "Power-Tools-Test", 201);
+        ParentCategoryID= CategorySteps.createCategoryAndValidate(UUID.randomUUID().toString(), UUID.randomUUID().toString(), 201);
 
-        SubCategoryID= CategorySteps.createCategoryAndValidate("SubCategory1", "SubCategory1", 201, ParentCategoryID);
+        SubCategoryID= CategorySteps.createCategoryAndValidate(UUID.randomUUID().toString(), UUID.randomUUID().toString(), 201, ParentCategoryID);
 
-        CategorySteps.updateCategoryAndValidate(SubCategoryID, "Cordless-Drills","Cordless-Drills", 200);
+        CategorySteps.updateCategoryAndValidate(SubCategoryID, UUID.randomUUID().toString(),UUID.randomUUID().toString(), 200);
 
         CategorySteps.deleteCategoryAndValidate(ParentCategoryID,Constants.getToken(),409 );
 
         ImageID = Utils_APis.Get_Random_Image_ID();
 
-        ProductID = ProductSteps.CreateProductAndValidate("TestProduct", SubCategoryID, BrandID, ImageID, 201);
+        ProductID = ProductSteps.CreateProductAndValidate(UUID.randomUUID().toString(), SubCategoryID, BrandID, ImageID, 201);
 
-        ProductSteps.UpdateProductAndValidate(ProductID, "TitanForge-X-Drive-20V-Cordless-Drill", 150, 200);
+        ProductSteps.UpdateProductAndValidate(ProductID, UUID.randomUUID().toString(), 150, 200);
 
         ProductSteps.DeleteProductAndValidate(ProductID, Constants.getToken(), 204);
 
@@ -44,8 +46,8 @@ public class EndToEndTest {
     @Test
     public void END_To_END_User(){
         String productID1 , productID2;
-        UsersSteps.Register(Constants.USERNAME,Constants.PASSWORD);
-        Users user = UsersSteps.login(Constants.ADMIN_USERNAME, Constants.ADMIN_PASSWORD);
+        UsersSteps.Register(Constants.USERNAME_User1,Constants.PASSWORD);
+        Users user = UsersSteps.login(Constants.ADMIN_USERNAME, Constants.ADMIN_PASSWORD,200);
         Constants.setToken(user.getToken());
         productID1 = Utils_APis.Get_Random_Product_ID();
         productID2 = Utils_APis.Get_Random_Product_ID();
@@ -57,7 +59,7 @@ public class EndToEndTest {
         CartSteps.DeleteProductFromCartAndValidate(cartID, productID2, 204);
         Utils_APis.CompletePaymentAndValidate();
 
-        user = UsersSteps.login(Constants.ADMIN_USERNAME, Constants.ADMIN_PASSWORD);
+        user = UsersSteps.login(Constants.ADMIN_USERNAME, Constants.ADMIN_PASSWORD,200);
         Constants.setToken(user.getToken());
 
         String InvoiceID = InvoicesSteps.CreateInvoiceAndValidate(cartID);

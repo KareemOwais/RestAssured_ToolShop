@@ -1,7 +1,7 @@
 package Steps;
 
 import POJO.Product;
-import Utils.ApiClient;
+import Utils.RestClient;
 import Utils.Constants;
 import io.restassured.response.Response;
 import org.slf4j.Logger;
@@ -13,12 +13,12 @@ public class ProductSteps {
     public static String CreateProductAndValidate(String name, String categoryId, String brandId , String ImageId , int statusCode) {
 
         // Create a new product
-        Response response= ApiClient.sendPostRequest(
+        Response response= RestClient.sendPostRequest(
                 new Product(name, "THIS is a test product", 100, categoryId, brandId, ImageId,
                         false, false) , Constants.PRODUCT_ENDPOINT);
         // Validate the response
         if(statusCode == 201){
-            Assert.assertEquals(response.getStatusCode(), 201, "Product creation failed");
+            Assert.assertEquals(response.getStatusCode(), statusCode, "Product creation failed");
             response.prettyPrint();
             Product product = response.as(Product.class);
             Assert.assertEquals(product.getName(), name, "Product name does not match");
@@ -28,14 +28,14 @@ public class ProductSteps {
             return product.getId();
         }
         else if (statusCode == 404){
-            Assert.assertEquals(response.getStatusCode(), 404, "Product creation failed");
+            Assert.assertEquals(response.getStatusCode(), statusCode, "Product creation failed");
             Product product = response.as(Product.class);
             Assert.assertEquals(product.getMessage(),"Requested item not found");
             logger.info("Endpoint not found");
             return null;
         }
         else if (statusCode == 405){
-            Assert.assertEquals(response.getStatusCode(), 405, "Product creation failed");
+            Assert.assertEquals(response.getStatusCode(), statusCode, "Product creation failed");
             Product product = response.as(Product.class);
             Assert.assertEquals(product.getMessage(),"Method is not allowed for the requested route");
             logger.info("Method is not allowed for the requested route");
@@ -46,17 +46,23 @@ public class ProductSteps {
             return null;
         }
     }
+    public static String RetrieveProductName(String id){
+       Response response= RestClient.sendGetRequest(Constants.PRODUCT_ENDPOINT+"/"+id);
+        Product product = response.as(Product.class);
+        return product.getName();
+
+    }
     public static void UpdateProductAndValidate(String id, String name, int price , int statusCode) {
         // Update the product
         Product product = new Product();
         product.setName(name);
         product.setPrice(price);
-        Response response = ApiClient.sendPatchRequest(product, Constants.PRODUCT_ENDPOINT + "/" + id);
+        Response response = RestClient.sendPatchRequest(product, Constants.PRODUCT_ENDPOINT + "/" + id);
         if(statusCode == 200) {
-            Assert.assertEquals(response.getStatusCode(), 200, "Product update failed");
+            Assert.assertEquals(response.getStatusCode(), statusCode, "Product update failed");
             product = response.as(Product.class);
             Assert.assertTrue(product.getSuccess(), "Product update failed");
-            response = ApiClient.sendGetRequest(Constants.PRODUCT_ENDPOINT + "/" + id);
+            response = RestClient.sendGetRequest(Constants.PRODUCT_ENDPOINT + "/" + id);
             Assert.assertEquals(response.getStatusCode(), 200, "Product not found after update");
             product = response.as(Product.class);
             Assert.assertEquals(product.getName(), name, "Product name mismatch after update");
@@ -64,12 +70,12 @@ public class ProductSteps {
             logger.info("Product updated successfully with ID: " + product.getId());
         }
         else if(statusCode == 404){
-            Assert.assertEquals(response.getStatusCode(), 404, "Product update failed");
+            Assert.assertEquals(response.getStatusCode(), statusCode, "Product update failed");
             Product product1 = response.as(Product.class);
             Assert.assertEquals(product1.getMessage(),"Requested item not found");
         }
         else if(statusCode == 405){
-            Assert.assertEquals(response.getStatusCode(), 405, "Product update failed");
+            Assert.assertEquals(response.getStatusCode(), statusCode, "Product update failed");
             Product product1 = response.as(Product.class);
             Assert.assertEquals(product1.getMessage(),"Method is not allowed for the requested route");
         }
@@ -79,33 +85,33 @@ public class ProductSteps {
     }
     public static void DeleteProductAndValidate(String id , String token , int statusCode) {
         // Delete the product
-        Response response = ApiClient.sendDeleteRequest(Constants.PRODUCT_ENDPOINT + "/" + id , token);
+        Response response = RestClient.sendDeleteRequestWithToken(Constants.PRODUCT_ENDPOINT + "/" + id , token);
         if(statusCode == 204) {
-            Assert.assertEquals(response.getStatusCode(), 204, "Product deletion failed");
-            response = ApiClient.sendGetRequest(Constants.PRODUCT_ENDPOINT + "/" + id);
+            Assert.assertEquals(response.getStatusCode(), statusCode, "Product deletion failed");
+            response = RestClient.sendGetRequest(Constants.PRODUCT_ENDPOINT + "/" + id);
             Assert.assertEquals(response.getStatusCode(), 404, "Product still exists after deletion");
             logger.info("Product deleted successfully with ID: " + id);
         }
         else if(statusCode == 401){
-            Assert.assertEquals(response.getStatusCode(), 401, "Product deletion failed");
+            Assert.assertEquals(response.getStatusCode(), statusCode, "Product deletion failed");
             Product product = response.as(Product.class);
             Assert.assertEquals(product.getMessage(),"Unauthorized");
             logger.info("Unauthorized");
         }
         else if(statusCode == 403){
-            Assert.assertEquals(response.getStatusCode(), 403, "Product deletion failed");
+            Assert.assertEquals(response.getStatusCode(), statusCode, "Product deletion failed");
             Product product = response.as(Product.class);
             Assert.assertEquals(product.getMessage(),"Forbidden");
             logger.info("Forbidden");
         }
         else if(statusCode == 404){
-            Assert.assertEquals(response.getStatusCode(), 404, "Product deletion failed");
+            Assert.assertEquals(response.getStatusCode(), statusCode, "Product deletion failed");
             Product product = response.as(Product.class);
             Assert.assertEquals(product.getMessage(),"Requested item not found");
             logger.info("Product not found with ID: " + id);
         }
         else if(statusCode == 405){
-            Assert.assertEquals(response.getStatusCode(), 405, "Product deletion failed");
+            Assert.assertEquals(response.getStatusCode(), statusCode, "Product deletion failed");
             Product product = response.as(Product.class);
             Assert.assertEquals(product.getMessage(),"Method is not allowed for the requested route");
             logger.info("Method is not allowed for the requested route");

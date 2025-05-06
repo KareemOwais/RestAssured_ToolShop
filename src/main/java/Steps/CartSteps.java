@@ -2,7 +2,7 @@ package Steps;
 
 import POJO.Cart;
 import POJO.CartItem;
-import Utils.ApiClient;
+import Utils.RestClient;
 import Utils.Constants;
 import io.restassured.response.Response;
 import org.slf4j.Logger;
@@ -15,7 +15,7 @@ public class CartSteps {
     protected static final Logger logger = LoggerFactory.getLogger(CartSteps.class);
     public static String CreateNewCartAndValidate(){
         Cart cart = new Cart();
-        Response response = ApiClient.sendPostRequest(cart , Constants.CART_ENDPOINT);
+        Response response = RestClient.sendPostRequest(cart , Constants.CART_ENDPOINT);
         cart = response.as(Cart.class);
         Assert.assertEquals(response.getStatusCode() , 201 , "Cart creation failed");
         Assert.assertNotNull(cart.getId());
@@ -26,59 +26,59 @@ public class CartSteps {
         Cart cart = new Cart();
         cart.setProductId(productId);
         cart.setQuantity(1);
-        Response response = ApiClient.sendPostRequest( cart, Constants.CART_ENDPOINT + "/" + cartId);
+        Response response = RestClient.sendPostRequest( cart, Constants.CART_ENDPOINT + "/" + cartId);
         response.prettyPrint();
         if(statusCode == 200){
             response.prettyPrint();
-            Assert.assertEquals(response.getStatusCode() , 200 , "Product added to cart failed");
+            Assert.assertEquals(response.getStatusCode() , statusCode , "Product added to cart failed");
             cart = response.as(Cart.class);
             Assert.assertEquals(cart.getResult(), "item added or updated");
             logger.info("Product added to cart successfully");
         }
         else if(statusCode == 404){
-            Assert.assertEquals(response.getStatusCode() , 404 , "Product not found");
+            Assert.assertEquals(response.getStatusCode() , statusCode , "Product not found");
             logger.info("Product not found");
         }
         else if(statusCode == 405){
-            Assert.assertEquals(response.getStatusCode() , 405 , "Method not allowed");
+            Assert.assertEquals(response.getStatusCode() , statusCode , "Method not allowed");
             logger.info("Method not allowed");
         }
     }
     public static void GetCartAndValidate(String cartId , int statusCode){
-        Response response = ApiClient.sendGetRequest(Constants.CART_ENDPOINT + "/" + cartId);
+        Response response = RestClient.sendGetRequest(Constants.CART_ENDPOINT + "/" + cartId);
         if(statusCode == 200){
-            Assert.assertEquals(response.getStatusCode() , 200 , "Get cart failed");
+            Assert.assertEquals(response.getStatusCode() , statusCode , "Get cart failed");
             response.prettyPrint();
             Cart cart = response.as(Cart.class);
             Assert.assertEquals(cart.getId() , cartId , "Cart ID mismatch");
             logger.info("Cart retrieved successfully");
         }
         else if(statusCode == 404){
-            Assert.assertEquals(response.getStatusCode() , 404 , "Cart not found");
+            Assert.assertEquals(response.getStatusCode() , statusCode , "Cart not found");
             logger.info("Cart not found");
         }
         else if(statusCode == 405){
-            Assert.assertEquals(response.getStatusCode() , 405 , "Method not allowed");
+            Assert.assertEquals(response.getStatusCode() , statusCode , "Method not allowed");
             logger.info("Method not allowed");
         }
     }
     public static void DeleteCartAndValidate(String cartId , int statusCode){
 
-        Response response = ApiClient.sendDeleteRequest(Constants.CART_ENDPOINT + "/" + cartId , null);
+        Response response = RestClient.sendDeleteRequestWithToken(Constants.CART_ENDPOINT + "/" + cartId , null);
         if(statusCode == 204){
-            Assert.assertEquals(response.getStatusCode() , 204 , "Delete cart failed");
+            Assert.assertEquals(response.getStatusCode() , statusCode , "Delete cart failed");
             logger.info("Cart deleted successfully");
         }
         else if(statusCode == 401){
-            Assert.assertEquals(response.getStatusCode() , 401 , "Unauthorized");
+            Assert.assertEquals(response.getStatusCode() , statusCode , "Unauthorized");
             logger.info("Unauthorized");
         }
         else if(statusCode == 404){
-            Assert.assertEquals(response.getStatusCode() , 404 , "Cart not found");
+            Assert.assertEquals(response.getStatusCode() , statusCode , "Cart not found");
             logger.info("Cart not found");
         }
         else if(statusCode == 405){
-            Assert.assertEquals(response.getStatusCode() , 405 , "Method not allowed");
+            Assert.assertEquals(response.getStatusCode() , statusCode , "Method not allowed");
             logger.info("Method not allowed");
         }
     }
@@ -86,13 +86,13 @@ public class CartSteps {
         Cart cart = new Cart();
         cart.setProductId(productId);
         cart.setQuantity(quantity);
-        Response response = ApiClient.sendPutRequest(cart , Constants.CART_ENDPOINT + "/" + cartId+"/product/quantity");
+        Response response = RestClient.sendPutRequest(cart , Constants.CART_ENDPOINT + "/" + cartId+"/product/quantity");
         if(statusCode == 200){
-            Assert.assertEquals(response.getStatusCode() , 200 , "Update product quantity failed");
+            Assert.assertEquals(response.getStatusCode() , statusCode , "Update product quantity failed");
             cart = response.as(Cart.class);
             response.prettyPrint();
             Assert.assertEquals(cart.getResult(), "item added or updated");
-            response = ApiClient.sendGetRequest(Constants.CART_ENDPOINT + "/" + cartId);
+            response = RestClient.sendGetRequest(Constants.CART_ENDPOINT + "/" + cartId);
             response.prettyPrint();
             cart = response.as(Cart.class);
             Assert.assertEquals(GetItemCount(cart.getCartItems(),productId) , quantity);
@@ -100,19 +100,19 @@ public class CartSteps {
 
         }
         else if(statusCode == 404){
-            Assert.assertEquals(response.getStatusCode() , 404 , "Product not found");
+            Assert.assertEquals(response.getStatusCode() , statusCode , "Product not found");
             logger.info("Product not found");
         }
         else if(statusCode == 405){
-            Assert.assertEquals(response.getStatusCode() , 405 , "Method not allowed");
+            Assert.assertEquals(response.getStatusCode() , statusCode , "Method not allowed");
             logger.info("Method not allowed");
         }
     }
     public static void DeleteProductFromCartAndValidate(String cartId , String productId , int statusCode){
-        Response response = ApiClient.sendDeleteRequest(Constants.CART_ENDPOINT + "/" + cartId + "/product/" + productId , null);
+        Response response = RestClient.sendDeleteRequestWithToken(Constants.CART_ENDPOINT + "/" + cartId + "/product/" + productId , null);
         if(statusCode == 204){
-            Assert.assertEquals(response.getStatusCode() , 204, "Delete product from cart failed");
-            response = ApiClient.sendGetRequest(Constants.CART_ENDPOINT + "/" + cartId);
+            Assert.assertEquals(response.getStatusCode() , statusCode, "Delete product from cart failed");
+            response = RestClient.sendGetRequest(Constants.CART_ENDPOINT + "/" + cartId);
             Cart cart = response.as(Cart.class);
             Boolean flag = GetItemId(cart.getCartItems() , productId);
             Assert.assertFalse(flag , "Product not deleted from cart");
@@ -120,15 +120,17 @@ public class CartSteps {
 
         }
         else if(statusCode == 401){
-            Assert.assertEquals(response.getStatusCode() , 401 , "Unauthorized");
+            Assert.assertEquals(response.getStatusCode() , statusCode , "Unauthorized");
             logger.info("Unauthorized");
         }
         else if(statusCode == 404){
-            Assert.assertEquals(response.getStatusCode() , 404 , "Product not found");
-            logger.info("Product not found");
+            Assert.assertEquals(response.getStatusCode() , statusCode , "Product not found");
+            Cart cart = response.as(Cart.class);
+            Assert.assertEquals(cart.getMessage() , "Cart doesnt exists");
+            logger.info("Cart doesnt exists");
         }
         else if(statusCode == 405){
-            Assert.assertEquals(response.getStatusCode() , 405 , "Method not allowed");
+            Assert.assertEquals(response.getStatusCode() , statusCode , "Method not allowed");
             logger.info("Method not allowed");
         }
     }
