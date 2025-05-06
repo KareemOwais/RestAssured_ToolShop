@@ -5,8 +5,8 @@ import io.restassured.response.Response;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class ApiClient {
-    protected static final Logger logger = LoggerFactory.getLogger(ApiClient.class);
+public class RestClient {
+    protected static final Logger logger = LoggerFactory.getLogger(RestClient.class);
     public  static Response sendGetRequest(String endpoint) {
         logger.info("GET request sent to endpoint: "+ endpoint);
         return RestAssured
@@ -76,7 +76,7 @@ public class ApiClient {
                 .patch(Constants.BASEURL+ endpoint);
     }
 
-    public static Response sendDeleteRequest(String endpoint , String token) {
+    public static Response sendDeleteRequestWithToken(String endpoint , String token) {
         logger.info("DELETE request sent to endpoint: "+ endpoint);
         return RestAssured
                 .given()
@@ -84,7 +84,7 @@ public class ApiClient {
                 .header("Authorization", "Bearer " + token)
                 .delete(Constants.BASEURL+ endpoint);
     }
-    public static Response sendDeleteRequestWithoutToken(String endpoint) {
+    public static Response sendDeleteRequest(String endpoint) {
         logger.info("DELETE request sent to endpoint: "+ endpoint);
         return RestAssured
                 .given()

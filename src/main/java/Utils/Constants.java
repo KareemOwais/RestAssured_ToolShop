@@ -3,6 +3,7 @@ package Utils;
 import java.util.UUID;
 
 public class Constants {
+
         public static String BASEURL = "https://api.practicesoftwaretesting.com";
         public static String LOGIN_ENDPOINT = "/users/login";
         public static String REGISTER_ENDPOINT = "/users/register";
@@ -17,7 +18,8 @@ public class Constants {
 
         public static String ADMIN_USERNAME = "admin@practicesoftwaretesting.com";
         public static String ADMIN_PASSWORD = "welcome01";
-        public static String USERNAME = UUID.randomUUID().toString()+"@gmail.com";
+        public static String USERNAME_User1 = UUID.randomUUID().toString()+"@dd.com";
+        public static String USERNAME_User2 = UUID.randomUUID().toString()+"@dd.com";
         public static String PASSWORD = "wWlcodm@e01";
 
         private static String TOKEN = null;
