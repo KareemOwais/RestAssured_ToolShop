@@ -2,13 +2,9 @@ package Utils;
 
 import org.java_websocket.client.WebSocketClient;
 import org.java_websocket.handshake.ServerHandshake;
-
 import io.restassured.path.json.JsonPath;
-
 import java.net.URI;
 import java.util.concurrent.CountDownLatch;
-
-import static Utils.GraphQL_Utils.HASURA_ADMIN_SECRET;
 
 public class GraphQLWebSocketClient extends WebSocketClient {
     private CountDownLatch latch;
@@ -31,7 +27,7 @@ public class GraphQLWebSocketClient extends WebSocketClient {
             }
           }
         }
-        """, HASURA_ADMIN_SECRET); // or use "x-hasura-admin-secret" if Hasura uses admin secret
+        """, Constants.getHasuraAdminSecret()); // or use "x-hasura-admin-secret" if Hasura uses admin secret
 
         send(initMessage);
     }

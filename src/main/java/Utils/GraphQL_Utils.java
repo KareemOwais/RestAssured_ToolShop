@@ -7,8 +7,8 @@ import org.json.JSONObject;
 
 public class GraphQL_Utils {
 
-    private static final String GRAPHQL_URL = "https://hasura.io/learn/graphql";
-    public static final String HASURA_ADMIN_SECRET = "REDACTED";
+
+
     public static int insertTodo() {
         String query = """
                 mutation {
@@ -22,9 +22,9 @@ public class GraphQL_Utils {
         payload.put("query", query);
 
         Response response = RestAssured.given()
-                .baseUri(GRAPHQL_URL)
+                .baseUri(Constants.GRAPHQL_URL)
                 .contentType(ContentType.JSON)
-                .header("Authorization", "Bearer " + HASURA_ADMIN_SECRET)
+                .header("Authorization", "Bearer " + Constants.getHasuraAdminSecret())
                 .body(payload.toString())
                 .post();
 
@@ -44,10 +44,11 @@ public class GraphQL_Utils {
         payload.put("query", query);
 
         RestAssured.given()
-                .baseUri(GRAPHQL_URL)
+                .baseUri(Constants.GRAPHQL_URL)
                 .contentType(ContentType.JSON)
-                .header("Authorization", "Bearer " + HASURA_ADMIN_SECRET)
+                .header("Authorization", "Bearer " + Constants.getHasuraAdminSecret())
                 .body(payload.toString())
                 .post();
     }
+
 }

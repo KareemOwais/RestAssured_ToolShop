@@ -8,4 +8,4 @@ import io.cucumber.testng.CucumberOptions;
         glue = {"StepDefinitions"},
         plugin = {"pretty", "html:target/cucumber-report.html"}
 )
-public class CucumberTestRunner extends AbstractTestNGCucumberTests {}
+public class CucumberTest extends AbstractTestNGCucumberTests {}

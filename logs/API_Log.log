@@ -3331,3 +3331,91 @@
 2025-05-06 18:13:48 INFO  Utils.RestClient - POST request sent to endpoint: /products
 2025-05-06 18:13:49 INFO  Steps.ProductSteps - Product created successfully with ID: 01jtk2j1wrae6857bntzr26g7w
 2025-05-06 18:13:49 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jtk2j1wrae6857bntzr26g7w
+2025-05-06 21:42:14 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-05-06 21:42:15 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-05-06 21:42:15 INFO  Utils.RestClient - POST request sent to endpoint: /brands
+2025-05-06 21:42:17 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jtkefs1rwet6xad73a3395v4
+2025-05-06 21:42:17 INFO  Utils.RestClient - POST request sent to endpoint: /categories
+2025-05-06 21:42:17 INFO  Steps.CategorySteps - Category created successfully with ID: 01jtkefse37t1jammd10qbf83c
+2025-05-06 21:42:18 INFO  Utils.RestClient - POST request sent to endpoint: /products
+2025-05-06 21:42:19 INFO  Steps.ProductSteps - Product created successfully with ID: 01jtkeftfcsc049qsf4gm3kbbn
+2025-05-06 21:42:19 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jtkeftfcsc049qsf4gm3kbbn
+2025-05-06 21:42:19 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jtkeftfcsc049qsf4gm3kbbn
+2025-05-06 21:42:19 INFO  Utils.RestClient - PATCH request sent to endpoint: /products/01jtkeftfcsc049qsf4gm3kbbn
+2025-05-06 21:42:20 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jtkeftfcsc049qsf4gm3kbbn
+2025-05-06 21:42:20 INFO  Steps.ProductSteps - Product updated successfully with ID: 01jtkeftfcsc049qsf4gm3kbbn
+2025-05-06 21:42:20 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jtkeftfcsc049qsf4gm3kbbn
+2025-05-06 21:42:20 INFO  Utils.RestClient - POST request sent to endpoint: /users/login
+2025-05-06 21:42:21 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jtkeftfcsc049qsf4gm3kbbn
+2025-05-06 21:42:21 INFO  Utils.RestClient - DELETE request sent to endpoint: /products/01jtkeftfcsc049qsf4gm3kbbn
+2025-05-06 21:42:21 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jtkeftfcsc049qsf4gm3kbbn
+2025-05-06 21:42:22 INFO  Steps.ProductSteps - Product deleted successfully with ID: 01jtkeftfcsc049qsf4gm3kbbn
+2025-05-06 21:42:22 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jtkeftfcsc049qsf4gm3kbbn
+2025-05-06 21:44:47 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-05-06 21:44:47 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-05-06 21:44:48 INFO  Utils.RestClient - POST request sent to endpoint: /brands
+2025-05-06 21:44:49 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jtkemdcgn8c2qmg7jp13arkb
+2025-05-06 21:44:49 INFO  Utils.RestClient - POST request sent to endpoint: /categories
+2025-05-06 21:44:49 INFO  Steps.CategorySteps - Category created successfully with ID: 01jtkemdrxg9jgg9f8z873x282
+2025-05-06 21:44:50 INFO  Utils.RestClient - POST request sent to endpoint: /products
+2025-05-06 21:44:50 INFO  Steps.ProductSteps - Product created successfully with ID: 01jtkemes0zd3sf7y6crhwxkcz
+2025-05-06 21:44:50 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jtkemes0zd3sf7y6crhwxkcz
+2025-05-06 21:44:51 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jtkemes0zd3sf7y6crhwxkcz
+2025-05-06 21:44:51 INFO  Utils.RestClient - PATCH request sent to endpoint: /products/01jtkemes0zd3sf7y6crhwxkcz
+2025-05-06 21:44:51 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jtkemes0zd3sf7y6crhwxkcz
+2025-05-06 21:44:52 INFO  Steps.ProductSteps - Product updated successfully with ID: 01jtkemes0zd3sf7y6crhwxkcz
+2025-05-06 21:44:52 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jtkemes0zd3sf7y6crhwxkcz
+2025-05-06 21:44:52 INFO  Utils.RestClient - POST request sent to endpoint: /users/login
+2025-05-06 21:44:52 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jtkemes0zd3sf7y6crhwxkcz
+2025-05-06 21:44:53 INFO  Utils.RestClient - DELETE request sent to endpoint: /products/01jtkemes0zd3sf7y6crhwxkcz
+2025-05-06 21:44:53 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jtkemes0zd3sf7y6crhwxkcz
+2025-05-06 21:44:53 INFO  Steps.ProductSteps - Product deleted successfully with ID: 01jtkemes0zd3sf7y6crhwxkcz
+2025-05-06 21:44:53 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jtkemes0zd3sf7y6crhwxkcz
+2025-05-06 23:37:31 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-05-06 23:37:31 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-05-06 23:37:32 INFO  Utils.RestClient - POST request sent to endpoint: /brands
+2025-05-06 23:37:35 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jtkn2x56wb8268gda4ktg1nx
+2025-05-06 23:37:35 INFO  Utils.RestClient - POST request sent to endpoint: /categories
+2025-05-06 23:37:36 INFO  Steps.CategorySteps - Category created successfully with ID: 01jtkn2xjcwgkfvqwvd531t2h9
+2025-05-06 23:37:36 INFO  Utils.RestClient - POST request sent to endpoint: /products
+2025-05-06 23:37:37 INFO  Steps.ProductSteps - Product created successfully with ID: 01jtkn2yswwyyef65bfv5nsfaf
+2025-05-06 23:37:37 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jtkn2yswwyyef65bfv5nsfaf
+2025-05-06 23:37:37 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jtkn2yswwyyef65bfv5nsfaf
+2025-05-06 23:37:38 INFO  Utils.RestClient - PATCH request sent to endpoint: /products/01jtkn2yswwyyef65bfv5nsfaf
+2025-05-06 23:37:38 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jtkn2yswwyyef65bfv5nsfaf
+2025-05-06 23:37:39 INFO  Steps.ProductSteps - Product updated successfully with ID: 01jtkn2yswwyyef65bfv5nsfaf
+2025-05-06 23:37:39 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jtkn2yswwyyef65bfv5nsfaf
+2025-05-06 23:37:40 INFO  Utils.RestClient - POST request sent to endpoint: /users/login
+2025-05-06 23:37:40 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jtkn2yswwyyef65bfv5nsfaf
+2025-05-06 23:37:41 INFO  Utils.RestClient - DELETE request sent to endpoint: /products/01jtkn2yswwyyef65bfv5nsfaf
+2025-05-06 23:37:41 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jtkn2yswwyyef65bfv5nsfaf
+2025-05-06 23:37:41 INFO  Steps.ProductSteps - Product deleted successfully with ID: 01jtkn2yswwyyef65bfv5nsfaf
+2025-05-06 23:37:41 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jtkn2yswwyyef65bfv5nsfaf
+2025-05-06 23:37:46 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-05-06 23:37:46 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-05-06 23:37:47 INFO  Utils.RestClient - POST request sent to endpoint: /brands
+2025-05-06 23:37:48 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jtkn39r1pt6wyr22gvj8dzeg
+2025-05-06 23:37:48 INFO  Utils.RestClient - POST request sent to endpoint: /categories
+2025-05-06 23:37:53 INFO  Steps.CategorySteps - Category created successfully with ID: 01jtkn3b4kmftt5f7km06ndm86
+2025-05-06 23:37:54 INFO  Utils.RestClient - POST request sent to endpoint: /products
+2025-05-06 23:37:54 INFO  Steps.ProductSteps - Product created successfully with ID: 01jtkn3fg0t42a8ynv42epk31c
+2025-05-06 23:37:54 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jtkn3fg0t42a8ynv42epk31c
+2025-05-06 23:37:59 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jtkn3fg0t42a8ynv42epk31c
+2025-05-06 23:37:59 INFO  Utils.RestClient - PATCH request sent to endpoint: /products/01jtkn3fg0t42a8ynv42epk31c
+2025-05-06 23:38:00 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jtkn3fg0t42a8ynv42epk31c
+2025-05-06 23:38:00 INFO  Steps.ProductSteps - Product updated successfully with ID: 01jtkn3fg0t42a8ynv42epk31c
+2025-05-06 23:38:00 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jtkn3fg0t42a8ynv42epk31c
+2025-05-06 23:38:00 INFO  Utils.RestClient - POST request sent to endpoint: /users/login
+2025-05-06 23:38:01 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jtkn3fg0t42a8ynv42epk31c
+2025-05-06 23:38:02 INFO  Utils.RestClient - DELETE request sent to endpoint: /products/01jtkn3fg0t42a8ynv42epk31c
+2025-05-06 23:38:02 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jtkn3fg0t42a8ynv42epk31c
+2025-05-06 23:38:02 INFO  Steps.ProductSteps - Product deleted successfully with ID: 01jtkn3fg0t42a8ynv42epk31c
+2025-05-06 23:38:02 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jtkn3fg0t42a8ynv42epk31c

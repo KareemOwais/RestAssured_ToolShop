@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 public class GraphQLTests {
 
     @Test
-    public void testGraphQLSubscriptionFlow() throws Exception {
+    public void testGraphQLMutationAndSubscriptionFlow() throws Exception {
         CountDownLatch latch = new CountDownLatch(1);
         int todoId = GraphQL_Utils.insertTodo();
         System.out.println("Inserted todo ID: " + todoId);

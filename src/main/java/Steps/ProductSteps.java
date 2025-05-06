@@ -48,9 +48,35 @@ public class ProductSteps {
     }
     public static String RetrieveProductName(String id){
        Response response= RestClient.sendGetRequest(Constants.PRODUCT_ENDPOINT+"/"+id);
+       Assert.assertEquals(response.getStatusCode(),200);
         Product product = response.as(Product.class);
         return product.getName();
 
+    }
+    public static Boolean Boolean_RetrieveProduct(String id , int statusCode){
+        Response response= RestClient.sendGetRequest(Constants.PRODUCT_ENDPOINT+"/"+id);
+        if(statusCode == 200){
+            Assert.assertEquals(response.getStatusCode(),statusCode);
+            return true;
+        }
+        else if (statusCode == 404){
+            Assert.assertEquals(response.getStatusCode(),statusCode);
+            return false;
+        }
+        return false;
+    }
+    public static Product Retrieve_Product(String id , int statusCode){
+        Response response= RestClient.sendGetRequest(Constants.PRODUCT_ENDPOINT+"/"+id);
+        Product product = response.as(Product.class);
+        if(statusCode == 200){
+            Assert.assertEquals(response.getStatusCode(),statusCode);
+            return product;
+        }
+        else if (statusCode == 404){
+            Assert.assertEquals(response.getStatusCode(),statusCode);
+            return null;
+        }
+        return null;
     }
     public static void UpdateProductAndValidate(String id, String name, int price , int statusCode) {
         // Update the product
