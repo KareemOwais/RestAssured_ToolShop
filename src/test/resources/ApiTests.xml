@@ -5,7 +5,7 @@
             <class name="Tests.EndToEnd_PositiveTest"/>
             <class name="Tests.EndToEnd_NegativeTest"/>
             <class name="Tests.GraphQLTests"/>
-            <class name="Tests.CucumberTestRunner"/>
+            <class name="Tests.CucumberTest"/>
         </classes>
     </test>
 </suite>
