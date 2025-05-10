@@ -1,6 +1,12 @@
 package POJO;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+
+@Data
+@Builder
 public class Invoice {
 
     @JsonProperty("billing_street")
@@ -24,7 +30,6 @@ public class Invoice {
 
     public Invoice() {
     }
-
     public Invoice(String billingStreet, String billingCity, String billingState, String billingCountry, String billingPostalCode, String paymentMethod, String cartId, PaymentDetails paymentDetails) {
         this.billingStreet = billingStreet;
         this.billingCity = billingCity;
@@ -35,53 +40,4 @@ public class Invoice {
         this.cartId = cartId;
         this.paymentDetails = paymentDetails;
     }
-    public String getBillingStreet() {
-        return billingStreet;
-    }
-    public void setBillingStreet(String billingStreet) {
-        this.billingStreet = billingStreet;
-    }
-    public String getBillingCity() {
-        return billingCity;
-    }
-    public void setBillingCity(String billingCity) {
-        this.billingCity = billingCity;
-    }
-    public String getBillingState() {
-        return billingState;
-    }
-    public void setBillingState(String billingState) {
-        this.billingState = billingState;
-    }
-    public String getBillingCountry() {
-        return billingCountry;
-    }
-    public void setBillingCountry(String billingCountry) {
-        this.billingCountry = billingCountry;
-    }
-    public String getBillingPostalCode() {
-        return billingPostalCode;
-    }
-    public void setBillingPostalCode(String billingPostalCode) {
-        this.billingPostalCode = billingPostalCode;
-    }
-    public String getPaymentMethod() {
-        return paymentMethod;
-    }
-    public void setPaymentMethod(String paymentMethod) {
-        this.paymentMethod = paymentMethod;
-    }
-    public String getCartId() {
-        return cartId;
-    }
-    public void setCartId(String cartId) {
-        this.cartId = cartId;
-    }
-    public PaymentDetails getPaymentDetails() {
-        return paymentDetails;
-    }
-    public void setPaymentDetails(PaymentDetails paymentDetails) {
-        this.paymentDetails = paymentDetails;
-    }
-
 }

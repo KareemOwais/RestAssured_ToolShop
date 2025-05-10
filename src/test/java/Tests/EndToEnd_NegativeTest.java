@@ -14,7 +14,7 @@ public class EndToEnd_NegativeTest {
     public static void EndToEnd_NegativeAdmin1(){
         String ParentCategoryID,BrandID,SubCategoryID,ProductID,ImageID;
         Users user = UsersSteps.login(Constants.ADMIN_USERNAME, Constants.ADMIN_PASSWORD , 200);
-        Constants.setToken(user.getToken());
+        Constants.setToken(user.getAccess_token());
 
         BrandID= BrandSteps.createBrandAndValidate(UUID.randomUUID().toString(), UUID.randomUUID().toString(), 201);
 
@@ -34,7 +34,7 @@ public class EndToEnd_NegativeTest {
         String productID1 , productID2 , productID3;
         UsersSteps.Register(Constants.USERNAME_User2,Constants.PASSWORD);
         Users user = UsersSteps.login(Constants.ADMIN_USERNAME, Constants.ADMIN_PASSWORD,200);
-        Constants.setToken(user.getToken());
+        Constants.setToken(user.getAccess_token());
         productID1 = Utils_APis.Get_Random_Product_ID();
         productID2 = Utils_APis.Get_Random_Product_ID();
         productID3 = Utils_APis.Get_Random_Product_ID();

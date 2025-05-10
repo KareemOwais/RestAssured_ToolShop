@@ -24,7 +24,7 @@ public class CartSteps {
     }
     public static void AddProductToCartAndValidate(String cartId , String productId , int statusCode){
         Cart cart = new Cart();
-        cart.setProductId(productId);
+        cart.setProduct_id(productId);
         cart.setQuantity(1);
         Response response = RestClient.sendPostRequest( cart, Constants.CART_ENDPOINT + "/" + cartId);
         response.prettyPrint();
@@ -84,7 +84,7 @@ public class CartSteps {
     }
     public static void UpdateProductQuantityAndValidate(String cartId , String productId , int quantity , int statusCode){
         Cart cart = new Cart();
-        cart.setProductId(productId);
+        cart.setProduct_id(productId);
         cart.setQuantity(quantity);
         Response response = RestClient.sendPutRequest(cart , Constants.CART_ENDPOINT + "/" + cartId+"/product/quantity");
         if(statusCode == 200){

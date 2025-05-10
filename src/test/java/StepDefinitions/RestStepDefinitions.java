@@ -23,7 +23,6 @@ public class RestStepDefinitions {
     @Given("A brand is Created")
     public void a_brand_is_created() {
         BrandId=BrandSteps.createBrandAndValidate(UUID.randomUUID().toString() , UUID.randomUUID().toString() , 201);
-
     }
     @Given("Category is Created")
     public void Category_is_created() {
@@ -52,7 +51,7 @@ public class RestStepDefinitions {
     @Given("Logged in as Admin")
     public void loggedInAsAdmin() {
         Users user =UsersSteps.login(Constants.ADMIN_USERNAME , Constants.ADMIN_PASSWORD , 200);
-        Constants.setToken(user.getToken());
+        Constants.setToken(user.getAccess_token());
     }
     @When("Product is Deleted")
     public void productIsDeleted() {

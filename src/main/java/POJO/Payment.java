@@ -3,7 +3,12 @@ package POJO;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 
+@Data
+@Builder
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Payment {
     @JsonProperty("payment_method")
@@ -17,20 +22,4 @@ public class Payment {
         this.paymentMethod = paymentMethod;
         this.paymentDetails = paymentDetails;
     }
-
-    public String getPaymentMethod() {
-        return paymentMethod;
-    }
-
-    public void setPaymentMethod(String paymentMethod) {
-        this.paymentMethod = paymentMethod;
-    }
-
-    public PaymentDetails getPaymentDetails() {
-        return paymentDetails;
-    }
-
-    public void setPaymentDetails(PaymentDetails paymentDetails) {
-        this.paymentDetails = paymentDetails;
-}
 }

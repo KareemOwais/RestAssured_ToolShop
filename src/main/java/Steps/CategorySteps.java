@@ -19,7 +19,7 @@ public class CategorySteps {
         category = response.as(Category.class);
         Assert.assertEquals(category.getName(), name, "Category name does not match\n");
         Assert.assertEquals(category.getSlug(), slug, "Category slug does not match\n");
-        Assert.assertNull(category.getParentId(), "Category parent ID should be null\n");
+        Assert.assertNull(category.getParent_id(), "Category parent ID should be null\n");
         logger.info("Category created successfully with ID: " + category.getId());
         return category.getId();
         } else if(statusCode == 404){
@@ -48,7 +48,7 @@ public class CategorySteps {
             category = response.as(Category.class);
             Assert.assertEquals(category.getName(), name, "Category name does not match\n");
             Assert.assertEquals(category.getSlug(), slug, "Category slug does not match\n");
-            Assert.assertEquals(category.getParentId(), parentId, "Category parent ID does not match\n");
+            Assert.assertEquals(category.getParent_id(), parentId, "Category parent ID does not match\n");
             logger.info("Category created successfully with ID: " + category.getId());
             return category.getId();
         }
