@@ -13,7 +13,7 @@ public class EndToEnd_PositiveTest {
     public void END_TO_END_Admin(){
         String ParentCategoryID,BrandID,SubCategoryID,ProductID,ImageID;
         Users user = UsersSteps.login(Constants.ADMIN_USERNAME, Constants.ADMIN_PASSWORD,200);
-        Constants.setToken(user.getToken());
+        Constants.setToken(user.getAccess_token());
 
         BrandID= BrandSteps.createBrandAndValidate(UUID.randomUUID().toString(), UUID.randomUUID().toString(), 201);
 
@@ -48,7 +48,7 @@ public class EndToEnd_PositiveTest {
         String productID1 , productID2;
         UsersSteps.Register(Constants.USERNAME_User1,Constants.PASSWORD);
         Users user = UsersSteps.login(Constants.ADMIN_USERNAME, Constants.ADMIN_PASSWORD,200);
-        Constants.setToken(user.getToken());
+        Constants.setToken(user.getAccess_token());
         productID1 = Utils_APis.Get_Random_Product_ID();
         productID2 = Utils_APis.Get_Random_Product_ID();
 
@@ -60,10 +60,9 @@ public class EndToEnd_PositiveTest {
         Utils_APis.CompletePaymentAndValidate();
 
         user = UsersSteps.login(Constants.ADMIN_USERNAME, Constants.ADMIN_PASSWORD,200);
-        Constants.setToken(user.getToken());
+        Constants.setToken(user.getAccess_token());
 
         String InvoiceID = InvoicesSteps.CreateInvoiceAndValidate(cartID);
-
 
     }
 }

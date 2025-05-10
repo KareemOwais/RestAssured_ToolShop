@@ -1,8 +1,14 @@
 package POJO;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
+@Data
+@Builder
+@AllArgsConstructor
 public class Category {
 
     @JsonProperty("name")
@@ -32,47 +38,6 @@ public class Category {
         this.name = name;
         this.slug = slug;
         this.parent_id = parent_id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getSlug() {
-        return slug;
-    }
-    public String getParentId() {
-        return parent_id;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setSlug(String slug) {
-        this.slug = slug;
-    }
-
-    public void setParentId(String parent_id) {
-        this.parent_id = parent_id;
-    }
-    public String getId() {
-        return id;
-    }
-    public void setId(String id) {
-        this.id = id;
-    }
-    public Boolean getSuccess() {
-        return success;
-    }
-    public void setSuccess(Boolean success) {
-        this.success = success;
-    }
-    public String getMessage() {
-        return message;
-    }
-    public void setMessage(String message) {
-        this.message = message;
     }
 
 }
