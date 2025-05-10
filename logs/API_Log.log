@@ -3624,3 +3624,43 @@
 2025-05-10 12:46:34 INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
 
+2025-05-10 13:09:09 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\Desktop\API_Projects\RestAssured_ToolShop\src\test\resources\ApiTests.xml"
+2025-05-10 13:09:09 INFO  Utils.RestClient - POST request sent to endpoint: /users/login
+2025-05-10 13:09:12 INFO  Utils.RestClient - POST request sent to endpoint: /brands
+2025-05-10 13:09:12 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jtwtq6sjma10a7y2ga6r815h
+2025-05-10 13:09:12 INFO  Utils.RestClient - PUT request sent to endpoint: /brands/01jtwtq6sjma10a7y2ga6r815h
+2025-05-10 13:09:13 INFO  Utils.RestClient - GET request sent to endpoint: /brands/01jtwtq6sjma10a7y2ga6r815h
+2025-05-10 13:09:13 INFO  Steps.BrandSteps - Brand updated successfully with ID: 01jtwtq6sjma10a7y2ga6r815h
+2025-05-10 13:09:13 INFO  Utils.RestClient - POST request sent to endpoint: /categories
+2025-05-10 13:09:13 INFO  Steps.CategorySteps - Category created successfully with ID: 01jtwtq83c2jyxekgfz8c2ydt0
+2025-05-10 13:09:13 INFO  Utils.RestClient - POST request sent to endpoint: /categories
+2025-05-10 13:09:28 INFO  Steps.UsersSteps - User registered successfully
+2025-05-10 13:09:28 INFO  Utils.RestClient - POST request sent to endpoint: /users/login
+2025-05-10 13:09:33 INFO  Utils.RestClient - POST request sent to endpoint: /carts
+2025-05-10 13:09:34 INFO  Steps.CartSteps - Cart Created Succefully
+2025-05-10 13:09:34 INFO  Utils.RestClient - POST request sent to endpoint: /carts/01jtwtqvvza5v39hag9erb7mtf
+2025-05-10 13:09:34 INFO  Steps.CartSteps - Product added to cart successfully
+2025-05-10 13:09:34 INFO  Utils.RestClient - POST request sent to endpoint: /carts/01jtwtqvvza5v39hag9erb7mtf
+2025-05-10 13:09:35 INFO  Steps.CartSteps - Product added to cart successfully
+2025-05-10 13:09:35 INFO  Utils.RestClient - PUT request sent to endpoint: /carts/01jtwtqvvza5v39hag9erb7mtf/product/quantity
+2025-05-10 13:09:35 INFO  Utils.RestClient - GET request sent to endpoint: /carts/01jtwtqvvza5v39hag9erb7mtf
+2025-05-10 13:09:35 INFO  Steps.CartSteps - Product quantity updated successfully
+2025-05-10 13:09:35 INFO  Utils.RestClient - DELETE request sent to endpoint: /carts/01jtwtqvvza5v39hag9erb7mtf/product/01JTWT6WYT544RX21ZKD9MKE5C
+2025-05-10 13:09:36 INFO  Utils.RestClient - GET request sent to endpoint: /carts/01jtwtqvvza5v39hag9erb7mtf
+2025-05-10 13:09:36 INFO  Steps.CartSteps - Product deleted from cart successfully
+2025-05-10 13:09:37 INFO  Utils.Utils_APis - Payment completed successfully
+2025-05-10 13:09:37 INFO  Utils.RestClient - POST request sent to endpoint: /users/login
+2025-05-10 13:09:37 INFO  Utils.RestClient - POST request sent to endpoint: /invoices
+2025-05-10 13:09:38 INFO  Steps.InvoicesSteps - Invoice created successfully 
+2025-05-10 13:09:38 INFO  Utils.RestClient - POST request sent to endpoint: /users/login
+2025-05-10 13:09:38 INFO  Utils.RestClient - POST request sent to endpoint: /brands
+2025-05-10 13:09:39 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jtwtr0r2ndxgyn8sm8cqpfjh
+2025-05-10 13:09:39 INFO  Utils.RestClient - PUT request sent to endpoint: /brands/01jtwtr0r2ndxgyn8sm8cqpfjh
+2025-05-10 13:09:39 INFO  Utils.RestClient - GET request sent to endpoint: /brands/01jtwtr0r2ndxgyn8sm8cqpfjh
+2025-05-10 13:09:41 INFO  Steps.BrandSteps - Brand updated successfully with ID: 01jtwtr0r2ndxgyn8sm8cqpfjh
+2025-05-10 13:09:41 INFO  Utils.RestClient - POST request sent to endpoint: /categories
+2025-05-10 13:09:41 INFO  Steps.CategorySteps - Category created successfully with ID: 01jtwtr2yv25sekemmneffncsy
+2025-05-10 13:09:41 INFO  Utils.RestClient - POST request sent to endpoint: /categories
+2025-05-10 13:09:45 INFO  Steps.CategorySteps - Category created successfully with ID: 01jtwtr6hz4fkn0r64pe9fhxcf
+2025-05-10 13:09:45 INFO  Utils.RestClient - PUT request sent to endpoint: /categories/01jtwtr6hz4fkn0r64pe9fhxcf
+2025-05-10 13:09:46 INFO  Utils.RestClient - GET request sent to endpoint: /categories/tree/01jtwtr6hz4fkn0r64pe9fhxcf
