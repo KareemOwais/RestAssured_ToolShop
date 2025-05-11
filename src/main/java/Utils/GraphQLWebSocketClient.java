@@ -27,7 +27,7 @@ public class GraphQLWebSocketClient extends WebSocketClient {
             }
           }
         }
-        """, Constants.getHasuraAdminSecret()); // or use "x-hasura-admin-secret" if Hasura uses admin secret
+        """, Constants.getHasuraAdminSecret());
 
         send(initMessage);
     }
