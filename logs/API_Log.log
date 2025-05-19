@@ -4063,3 +4063,213 @@
 2025-05-11 18:46:08 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jv00crbaefab3jv1fcaw3w07
 2025-05-11 18:46:09 INFO  Steps.ProductSteps - Product deleted successfully with ID: 01jv00crbaefab3jv1fcaw3w07
 2025-05-11 18:46:09 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jv00crbaefab3jv1fcaw3w07
+2025-05-19 18:43:53 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-05-19 18:43:53 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-05-19 18:43:53 INFO  Utils.RestClient - POST request sent to endpoint: /users/login
+2025-05-19 18:43:57 INFO  Utils.RestClient - POST request sent to endpoint: /brands
+2025-05-19 18:43:59 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jvmkene6ztma5jmymj7dzq9q
+2025-05-19 18:43:59 INFO  Utils.RestClient - PUT request sent to endpoint: /brands/01jvmkene6ztma5jmymj7dzq9q
+2025-05-19 18:44:01 INFO  Utils.RestClient - GET request sent to endpoint: /brands/01jvmkene6ztma5jmymj7dzq9q
+2025-05-19 18:44:02 INFO  Steps.BrandSteps - Brand updated successfully with ID: 01jvmkene6ztma5jmymj7dzq9q
+2025-05-19 18:44:02 INFO  Utils.RestClient - POST request sent to endpoint: /categories
+2025-05-19 18:44:02 INFO  Steps.CategorySteps - Category created successfully with ID: 01jvmkerdz2xy12b2c4fb65zjt
+2025-05-19 18:44:02 INFO  Utils.RestClient - POST request sent to endpoint: /categories
+2025-05-19 18:44:03 INFO  Steps.CategorySteps - Category created successfully with ID: 01jvmkersjxgnekxk4xk5dbcwg
+2025-05-19 18:44:03 INFO  Utils.RestClient - PUT request sent to endpoint: /categories/01jvmkersjxgnekxk4xk5dbcwg
+2025-05-19 18:44:03 INFO  Utils.RestClient - GET request sent to endpoint: /categories/tree/01jvmkersjxgnekxk4xk5dbcwg
+2025-05-19 18:44:03 INFO  Utils.RestClient - DELETE request sent to endpoint: /categories/01jvmkerdz2xy12b2c4fb65zjt
+2025-05-19 18:44:04 INFO  Steps.CategorySteps - Category deletion failed: Seems like this category is used elsewhere.
+2025-05-19 18:44:04 INFO  Utils.RestClient - POST request sent to endpoint: /products
+2025-05-19 18:44:05 INFO  Steps.ProductSteps - Product created successfully with ID: 01jvmkev1p539x06c0m1h489tt
+2025-05-19 18:44:05 INFO  Utils.RestClient - PATCH request sent to endpoint: /products/01jvmkev1p539x06c0m1h489tt
+2025-05-19 18:44:05 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jvmkev1p539x06c0m1h489tt
+2025-05-19 18:44:05 INFO  Steps.ProductSteps - Product updated successfully with ID: 01jvmkev1p539x06c0m1h489tt
+2025-05-19 18:44:05 INFO  Utils.RestClient - DELETE request sent to endpoint: /products/01jvmkev1p539x06c0m1h489tt
+2025-05-19 18:44:06 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jvmkev1p539x06c0m1h489tt
+2025-05-19 18:44:06 INFO  Steps.ProductSteps - Product deleted successfully with ID: 01jvmkev1p539x06c0m1h489tt
+2025-05-19 18:44:06 INFO  Utils.RestClient - DELETE request sent to endpoint: /categories/01jvmkersjxgnekxk4xk5dbcwg
+2025-05-19 18:44:06 INFO  Utils.RestClient - GET request sent to endpoint: /categories/tree/01jvmkersjxgnekxk4xk5dbcwg
+2025-05-19 18:44:07 INFO  Steps.CategorySteps - Category deleted successfully with ID: 01jvmkersjxgnekxk4xk5dbcwg
+2025-05-19 18:44:07 INFO  Utils.RestClient - DELETE request sent to endpoint: /categories/01jvmkerdz2xy12b2c4fb65zjt
+2025-05-19 18:44:07 INFO  Utils.RestClient - GET request sent to endpoint: /categories/tree/01jvmkerdz2xy12b2c4fb65zjt
+2025-05-19 18:44:07 INFO  Steps.CategorySteps - Category deleted successfully with ID: 01jvmkerdz2xy12b2c4fb65zjt
+2025-05-19 18:44:07 INFO  Utils.RestClient - DELETE request sent to endpoint: /brands/01jvmkene6ztma5jmymj7dzq9q
+2025-05-19 18:44:08 INFO  Utils.RestClient - GET request sent to endpoint: /brands/01jvmkene6ztma5jmymj7dzq9q
+2025-05-19 18:44:08 INFO  Steps.BrandSteps - Brand deleted successfully with ID: 01jvmkene6ztma5jmymj7dzq9q
+2025-05-19 18:44:08 INFO  Steps.UsersSteps - Logged out successfully
+2025-05-19 19:03:38 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-05-19 19:03:38 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-05-19 19:06:14 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-05-19 19:06:14 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-05-19 19:06:14 INFO  Utils.RestClient - POST request sent to endpoint: /users/login
+2025-05-19 19:06:16 INFO  Utils.RestClient - POST request sent to endpoint: /brands
+2025-05-19 19:06:16 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jvmmqf7a51xvqen4r4wddst5
+2025-05-19 19:06:16 INFO  Utils.RestClient - PUT request sent to endpoint: /brands/01jvmmqf7a51xvqen4r4wddst5
+2025-05-19 19:06:17 INFO  Utils.RestClient - GET request sent to endpoint: /brands/01jvmmqf7a51xvqen4r4wddst5
+2025-05-19 19:06:17 INFO  Steps.BrandSteps - Brand updated successfully with ID: 01jvmmqf7a51xvqen4r4wddst5
+2025-05-19 19:06:17 INFO  Utils.RestClient - POST request sent to endpoint: /categories
+2025-05-19 19:06:17 INFO  Steps.CategorySteps - Category created successfully with ID: 01jvmmqgcck5hraab0j28cwqhj
+2025-05-19 19:06:17 INFO  Utils.RestClient - POST request sent to endpoint: /categories
+2025-05-19 19:06:18 INFO  Steps.CategorySteps - Category created successfully with ID: 01jvmmqgqaw9tnhxtefmwxyyj5
+2025-05-19 19:06:18 INFO  Utils.RestClient - PUT request sent to endpoint: /categories/01jvmmqgqaw9tnhxtefmwxyyj5
+2025-05-19 19:06:18 INFO  Utils.RestClient - GET request sent to endpoint: /categories/tree/01jvmmqgqaw9tnhxtefmwxyyj5
+2025-05-19 19:06:18 INFO  Utils.RestClient - DELETE request sent to endpoint: /categories/01jvmmqgcck5hraab0j28cwqhj
+2025-05-19 19:06:19 INFO  Steps.CategorySteps - Category deletion failed: Seems like this category is used elsewhere.
+2025-05-19 19:06:19 INFO  Utils.RestClient - POST request sent to endpoint: /products
+2025-05-19 19:06:20 INFO  Steps.ProductSteps - Product created successfully with ID: 01jvmmqjs7wk31ng3cfet9808p
+2025-05-19 19:06:20 INFO  Utils.RestClient - PATCH request sent to endpoint: /products/01jvmmqjs7wk31ng3cfet9808p
+2025-05-19 19:06:20 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jvmmqjs7wk31ng3cfet9808p
+2025-05-19 19:06:21 INFO  Steps.ProductSteps - Product updated successfully with ID: 01jvmmqjs7wk31ng3cfet9808p
+2025-05-19 19:06:21 INFO  Utils.RestClient - DELETE request sent to endpoint: /products/01jvmmqjs7wk31ng3cfet9808p
+2025-05-19 19:06:21 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jvmmqjs7wk31ng3cfet9808p
+2025-05-19 19:06:21 INFO  Steps.ProductSteps - Product deleted successfully with ID: 01jvmmqjs7wk31ng3cfet9808p
+2025-05-19 19:06:21 INFO  Utils.RestClient - DELETE request sent to endpoint: /categories/01jvmmqgqaw9tnhxtefmwxyyj5
+2025-05-19 19:06:22 INFO  Utils.RestClient - GET request sent to endpoint: /categories/tree/01jvmmqgqaw9tnhxtefmwxyyj5
+2025-05-19 19:06:22 INFO  Steps.CategorySteps - Category deleted successfully with ID: 01jvmmqgqaw9tnhxtefmwxyyj5
+2025-05-19 19:06:22 INFO  Utils.RestClient - DELETE request sent to endpoint: /categories/01jvmmqgcck5hraab0j28cwqhj
+2025-05-19 19:06:22 INFO  Utils.RestClient - GET request sent to endpoint: /categories/tree/01jvmmqgcck5hraab0j28cwqhj
+2025-05-19 19:06:23 INFO  Steps.CategorySteps - Category deleted successfully with ID: 01jvmmqgcck5hraab0j28cwqhj
+2025-05-19 19:06:23 INFO  Utils.RestClient - DELETE request sent to endpoint: /brands/01jvmmqf7a51xvqen4r4wddst5
+2025-05-19 19:06:23 INFO  Utils.RestClient - GET request sent to endpoint: /brands/01jvmmqf7a51xvqen4r4wddst5
+2025-05-19 19:06:23 INFO  Steps.BrandSteps - Brand deleted successfully with ID: 01jvmmqf7a51xvqen4r4wddst5
+2025-05-19 19:06:24 INFO  Steps.UsersSteps - Logged out successfully
+2025-05-19 19:15:17 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\Desktop\API_Projects\RestAssured_ToolShop\src\test\resources\ApiTests.xml"
+2025-05-19 19:15:17 INFO  Utils.RestClient - POST request sent to endpoint: /users/login
+2025-05-19 19:15:21 INFO  Utils.RestClient - POST request sent to endpoint: /brands
+2025-05-19 19:15:23 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jvmn85a585denzrb42f75yxj
+2025-05-19 19:15:23 INFO  Utils.RestClient - PUT request sent to endpoint: /brands/01jvmn85a585denzrb42f75yxj
+2025-05-19 19:15:25 INFO  Utils.RestClient - GET request sent to endpoint: /brands/01jvmn85a585denzrb42f75yxj
+2025-05-19 19:15:25 INFO  Steps.BrandSteps - Brand updated successfully with ID: 01jvmn85a585denzrb42f75yxj
+2025-05-19 19:15:25 INFO  Utils.RestClient - POST request sent to endpoint: /categories
+2025-05-19 19:15:27 INFO  Steps.CategorySteps - Category created successfully with ID: 01jvmn88vp528x6fje9kw96zsw
+2025-05-19 19:15:27 INFO  Utils.RestClient - POST request sent to endpoint: /categories
+2025-05-19 19:15:27 INFO  Steps.CategorySteps - Category created successfully with ID: 01jvmn897na86x0d5tyq2nyq3w
+2025-05-19 19:15:27 INFO  Utils.RestClient - PUT request sent to endpoint: /categories/01jvmn897na86x0d5tyq2nyq3w
+2025-05-19 19:15:27 INFO  Utils.RestClient - GET request sent to endpoint: /categories/tree/01jvmn897na86x0d5tyq2nyq3w
+2025-05-19 19:15:28 INFO  Utils.RestClient - DELETE request sent to endpoint: /categories/01jvmn88vp528x6fje9kw96zsw
+2025-05-19 19:15:29 INFO  Steps.CategorySteps - Category deletion failed: Seems like this category is used elsewhere.
+2025-05-19 19:15:30 INFO  Utils.RestClient - POST request sent to endpoint: /products
+2025-05-19 19:15:30 INFO  Steps.ProductSteps - Product created successfully with ID: 01jvmn8c0vc0b164b39an216yb
+2025-05-19 19:15:30 INFO  Utils.RestClient - PATCH request sent to endpoint: /products/01jvmn8c0vc0b164b39an216yb
+2025-05-19 19:15:30 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jvmn8c0vc0b164b39an216yb
+2025-05-19 19:15:31 INFO  Steps.ProductSteps - Product updated successfully with ID: 01jvmn8c0vc0b164b39an216yb
+2025-05-19 19:15:31 INFO  Utils.RestClient - DELETE request sent to endpoint: /products/01jvmn8c0vc0b164b39an216yb
+2025-05-19 19:15:31 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jvmn8c0vc0b164b39an216yb
+2025-05-19 19:15:31 INFO  Steps.ProductSteps - Product deleted successfully with ID: 01jvmn8c0vc0b164b39an216yb
+2025-05-19 19:15:31 INFO  Utils.RestClient - DELETE request sent to endpoint: /categories/01jvmn897na86x0d5tyq2nyq3w
+2025-05-19 19:15:32 INFO  Utils.RestClient - GET request sent to endpoint: /categories/tree/01jvmn897na86x0d5tyq2nyq3w
+2025-05-19 19:15:32 INFO  Steps.CategorySteps - Category deleted successfully with ID: 01jvmn897na86x0d5tyq2nyq3w
+2025-05-19 19:15:32 INFO  Utils.RestClient - DELETE request sent to endpoint: /categories/01jvmn88vp528x6fje9kw96zsw
+2025-05-19 19:15:33 INFO  Utils.RestClient - GET request sent to endpoint: /categories/tree/01jvmn88vp528x6fje9kw96zsw
+2025-05-19 19:15:33 INFO  Steps.CategorySteps - Category deleted successfully with ID: 01jvmn88vp528x6fje9kw96zsw
+2025-05-19 19:15:33 INFO  Utils.RestClient - DELETE request sent to endpoint: /brands/01jvmn85a585denzrb42f75yxj
+2025-05-19 19:15:33 INFO  Utils.RestClient - GET request sent to endpoint: /brands/01jvmn85a585denzrb42f75yxj
+2025-05-19 19:15:34 INFO  Steps.BrandSteps - Brand deleted successfully with ID: 01jvmn85a585denzrb42f75yxj
+2025-05-19 19:15:34 INFO  Steps.UsersSteps - Logged out successfully
+2025-05-19 19:15:35 INFO  Steps.UsersSteps - User registered successfully
+2025-05-19 19:15:35 INFO  Utils.RestClient - POST request sent to endpoint: /users/login
+2025-05-19 19:15:36 INFO  Utils.RestClient - POST request sent to endpoint: /carts
+2025-05-19 19:15:36 INFO  Steps.CartSteps - Cart Created Succefully
+2025-05-19 19:15:36 INFO  Utils.RestClient - POST request sent to endpoint: /carts/01jvmn8j3hy0xkc95d8c72xr69
+2025-05-19 19:15:37 INFO  Steps.CartSteps - Product added to cart successfully
+2025-05-19 19:15:37 INFO  Utils.RestClient - POST request sent to endpoint: /carts/01jvmn8j3hy0xkc95d8c72xr69
+2025-05-19 19:15:37 INFO  Steps.CartSteps - Product added to cart successfully
+2025-05-19 19:15:37 INFO  Utils.RestClient - PUT request sent to endpoint: /carts/01jvmn8j3hy0xkc95d8c72xr69/product/quantity
+2025-05-19 19:15:37 INFO  Utils.RestClient - GET request sent to endpoint: /carts/01jvmn8j3hy0xkc95d8c72xr69
+2025-05-19 19:15:38 INFO  Steps.CartSteps - Product quantity updated successfully
+2025-05-19 19:15:38 INFO  Utils.RestClient - DELETE request sent to endpoint: /carts/01jvmn8j3hy0xkc95d8c72xr69/product/01JVMMCFVKMR43W2B8GE8Y9GGR
+2025-05-19 19:15:38 INFO  Utils.RestClient - GET request sent to endpoint: /carts/01jvmn8j3hy0xkc95d8c72xr69
+2025-05-19 19:15:38 INFO  Steps.CartSteps - Product deleted from cart successfully
+2025-05-19 19:15:39 INFO  Utils.Utils_APis - Payment completed successfully
+2025-05-19 19:15:39 INFO  Utils.RestClient - POST request sent to endpoint: /users/login
+2025-05-19 19:15:39 INFO  Utils.RestClient - POST request sent to endpoint: /invoices
+2025-05-19 19:15:40 INFO  Steps.InvoicesSteps - Invoice created successfully 
+2025-05-19 19:15:40 INFO  Utils.RestClient - POST request sent to endpoint: /users/login
+2025-05-19 19:15:40 INFO  Utils.RestClient - POST request sent to endpoint: /brands
+2025-05-19 19:15:40 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jvmn8p6v7kb1crrgbnzeqekq
+2025-05-19 19:15:40 INFO  Utils.RestClient - PUT request sent to endpoint: /brands/01jvmn8p6v7kb1crrgbnzeqekq
+2025-05-19 19:15:41 INFO  Utils.RestClient - GET request sent to endpoint: /brands/01jvmn8p6v7kb1crrgbnzeqekq
+2025-05-19 19:15:41 INFO  Steps.BrandSteps - Brand updated successfully with ID: 01jvmn8p6v7kb1crrgbnzeqekq
+2025-05-19 19:15:41 INFO  Utils.RestClient - POST request sent to endpoint: /categories
+2025-05-19 19:15:41 INFO  Steps.CategorySteps - Category created successfully with ID: 01jvmn8q7242fbp3a8nkedzqsm
+2025-05-19 19:15:41 INFO  Utils.RestClient - POST request sent to endpoint: /categories
+2025-05-19 19:15:42 INFO  Steps.CategorySteps - Category created successfully with ID: 01jvmn8qhyt169w21bxp81tnh3
+2025-05-19 19:15:42 INFO  Utils.RestClient - PUT request sent to endpoint: /categories/01jvmn8qhyt169w21bxp81tnh3
+2025-05-19 19:15:42 INFO  Utils.RestClient - GET request sent to endpoint: /categories/tree/01jvmn8qhyt169w21bxp81tnh3
+2025-05-19 19:15:42 INFO  Utils.RestClient - DELETE request sent to endpoint: /categories/01jvmn8q7242fbp3a8nkedzqsm
+2025-05-19 19:15:43 INFO  Steps.CategorySteps - Category deletion failed: Seems like this category is used elsewhere.
+2025-05-19 19:15:43 INFO  Steps.UsersSteps - User registered successfully
+2025-05-19 19:15:43 INFO  Utils.RestClient - POST request sent to endpoint: /users/login
+2025-05-19 19:15:45 INFO  Utils.RestClient - POST request sent to endpoint: /carts
+2025-05-19 19:15:45 INFO  Steps.CartSteps - Cart Created Succefully
+2025-05-19 19:15:45 INFO  Utils.RestClient - POST request sent to endpoint: /carts/01jvmn8tx172xz839szq4pwknd
+2025-05-19 19:15:46 INFO  Steps.CartSteps - Product added to cart successfully
+2025-05-19 19:15:46 INFO  Utils.RestClient - POST request sent to endpoint: /carts/01jvmn8tx172xz839szq4pwknd
+2025-05-19 19:15:46 INFO  Steps.CartSteps - Product added to cart successfully
+2025-05-19 19:15:46 INFO  Utils.RestClient - GET request sent to endpoint: /carts/01jvmn8tx172xz839szq4pwknd
+2025-05-19 19:15:46 INFO  Steps.CartSteps - Cart retrieved successfully
+2025-05-19 19:15:46 INFO  Utils.RestClient - DELETE request sent to endpoint: /carts/01jvmn8tx172xz839szq4pwkndInvalid/product/01JVMMCFVPDFW1TN07CRH1P291
+2025-05-19 19:15:46 INFO  Steps.CartSteps - Cart doesnt exists
+2025-05-19 19:15:46 INFO  Utils.RestClient - GET request sent to endpoint: /carts/01jvmn8tx172xz839szq4pwknd
+2025-05-19 19:15:47 INFO  Steps.CartSteps - Cart retrieved successfully
+2025-05-19 19:15:47 INFO  Utils.Utils_APis - Payment completed successfully
+2025-05-19 19:15:51 INFO  Utils.RestClient - POST request sent to endpoint: /brands
+2025-05-19 19:15:52 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jvmn91cwssz0jbss0y6vt7hz
+2025-05-19 19:15:52 INFO  Utils.RestClient - POST request sent to endpoint: /categories
+2025-05-19 19:15:52 INFO  Steps.CategorySteps - Category created successfully with ID: 01jvmn91rxnh98a2ask11kxcdp
+2025-05-19 19:15:53 INFO  Utils.RestClient - POST request sent to endpoint: /products
+2025-05-19 19:15:53 INFO  Steps.ProductSteps - Product created successfully with ID: 01jvmn92g21sxqnwk0k2qwc9ar
+2025-05-19 19:15:53 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jvmn92g21sxqnwk0k2qwc9ar
+2025-05-19 19:15:53 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jvmn92g21sxqnwk0k2qwc9ar
+2025-05-19 19:15:54 INFO  Utils.RestClient - PATCH request sent to endpoint: /products/01jvmn92g21sxqnwk0k2qwc9ar
+2025-05-19 19:15:54 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jvmn92g21sxqnwk0k2qwc9ar
+2025-05-19 19:15:54 INFO  Steps.ProductSteps - Product updated successfully with ID: 01jvmn92g21sxqnwk0k2qwc9ar
+2025-05-19 19:15:54 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jvmn92g21sxqnwk0k2qwc9ar
+2025-05-19 19:15:55 INFO  Utils.RestClient - POST request sent to endpoint: /users/login
+2025-05-19 19:15:55 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jvmn92g21sxqnwk0k2qwc9ar
+2025-05-19 19:15:55 INFO  Utils.RestClient - DELETE request sent to endpoint: /products/01jvmn92g21sxqnwk0k2qwc9ar
+2025-05-19 19:15:56 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jvmn92g21sxqnwk0k2qwc9ar
+2025-05-19 19:15:56 INFO  Steps.ProductSteps - Product deleted successfully with ID: 01jvmn92g21sxqnwk0k2qwc9ar
+2025-05-19 19:15:56 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jvmn92g21sxqnwk0k2qwc9ar
+2025-05-19 19:22:53 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml"
+2025-05-19 19:22:53 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Kareem\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+2025-05-19 19:22:53 INFO  Utils.RestClient - POST request sent to endpoint: /users/login
+2025-05-19 19:22:55 INFO  Utils.RestClient - POST request sent to endpoint: /brands
+2025-05-19 19:22:55 INFO  Steps.BrandSteps - Brand created successfully with ID: 01jvmnnz2ek6kk5tsd6jdq9hyv
+2025-05-19 19:22:55 INFO  Utils.RestClient - PUT request sent to endpoint: /brands/01jvmnnz2ek6kk5tsd6jdq9hyv
+2025-05-19 19:22:56 INFO  Utils.RestClient - GET request sent to endpoint: /brands/01jvmnnz2ek6kk5tsd6jdq9hyv
+2025-05-19 19:22:56 INFO  Steps.BrandSteps - Brand updated successfully with ID: 01jvmnnz2ek6kk5tsd6jdq9hyv
+2025-05-19 19:22:56 INFO  Utils.RestClient - POST request sent to endpoint: /categories
+2025-05-19 19:22:57 INFO  Steps.CategorySteps - Category created successfully with ID: 01jvmnp050777ptx181ga1vh26
+2025-05-19 19:22:57 INFO  Utils.RestClient - POST request sent to endpoint: /categories
+2025-05-19 19:22:57 INFO  Steps.CategorySteps - Category created successfully with ID: 01jvmnp0gdgceb1c0zn530hkx7
+2025-05-19 19:22:57 INFO  Utils.RestClient - PUT request sent to endpoint: /categories/01jvmnp0gdgceb1c0zn530hkx7
+2025-05-19 19:22:57 INFO  Utils.RestClient - GET request sent to endpoint: /categories/tree/01jvmnp0gdgceb1c0zn530hkx7
+2025-05-19 19:22:58 INFO  Utils.RestClient - DELETE request sent to endpoint: /categories/01jvmnp050777ptx181ga1vh26
+2025-05-19 19:22:58 INFO  Steps.CategorySteps - Category deletion failed: Seems like this category is used elsewhere.
+2025-05-19 19:22:59 INFO  Utils.RestClient - POST request sent to endpoint: /products
+2025-05-19 19:22:59 INFO  Steps.ProductSteps - Product created successfully with ID: 01jvmnp2hzxvmt8nsja39bk8jq
+2025-05-19 19:22:59 INFO  Utils.RestClient - PATCH request sent to endpoint: /products/01jvmnp2hzxvmt8nsja39bk8jq
+2025-05-19 19:22:59 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jvmnp2hzxvmt8nsja39bk8jq
+2025-05-19 19:23:00 INFO  Steps.ProductSteps - Product updated successfully with ID: 01jvmnp2hzxvmt8nsja39bk8jq
+2025-05-19 19:23:00 INFO  Utils.RestClient - DELETE request sent to endpoint: /products/01jvmnp2hzxvmt8nsja39bk8jq
+2025-05-19 19:23:00 INFO  Utils.RestClient - GET request sent to endpoint: /products/01jvmnp2hzxvmt8nsja39bk8jq
+2025-05-19 19:23:01 INFO  Steps.ProductSteps - Product deleted successfully with ID: 01jvmnp2hzxvmt8nsja39bk8jq
+2025-05-19 19:23:01 INFO  Utils.RestClient - DELETE request sent to endpoint: /categories/01jvmnp0gdgceb1c0zn530hkx7
+2025-05-19 19:23:01 INFO  Utils.RestClient - GET request sent to endpoint: /categories/tree/01jvmnp0gdgceb1c0zn530hkx7
+2025-05-19 19:23:01 INFO  Steps.CategorySteps - Category deleted successfully with ID: 01jvmnp0gdgceb1c0zn530hkx7
+2025-05-19 19:23:01 INFO  Utils.RestClient - DELETE request sent to endpoint: /categories/01jvmnp050777ptx181ga1vh26
+2025-05-19 19:23:02 INFO  Utils.RestClient - GET request sent to endpoint: /categories/tree/01jvmnp050777ptx181ga1vh26
+2025-05-19 19:23:02 INFO  Steps.CategorySteps - Category deleted successfully with ID: 01jvmnp050777ptx181ga1vh26
+2025-05-19 19:23:02 INFO  Utils.RestClient - DELETE request sent to endpoint: /brands/01jvmnnz2ek6kk5tsd6jdq9hyv
+2025-05-19 19:23:02 INFO  Utils.RestClient - GET request sent to endpoint: /brands/01jvmnnz2ek6kk5tsd6jdq9hyv
+2025-05-19 19:23:03 INFO  Steps.BrandSteps - Brand deleted successfully with ID: 01jvmnnz2ek6kk5tsd6jdq9hyv
+2025-05-19 19:23:03 INFO  Steps.UsersSteps - Logged out successfully

@@ -4,6 +4,7 @@ import POJO.Users;
 import Steps.*;
 
 import Utils.Constants;
+import Utils.EnvManager;
 import Utils.Utils_APis;
 import org.testng.annotations.Test;
 
@@ -14,7 +15,7 @@ public class EndToEnd_NegativeTest {
     @Test
     public static void EndToEnd_NegativeAdmin1(){
         String ParentCategoryID,BrandID,SubCategoryID,ProductID,ImageID;
-        Users user = UsersSteps.login(Constants.ADMIN_USERNAME, Constants.ADMIN_PASSWORD , 200);
+        Users user = UsersSteps.login(EnvManager.getEnvVar("ADMIN_USERNAME"), EnvManager.getEnvVar("ADMIN_PASSWORD"), 200);
         Constants.setToken(user.getAccess_token());
 
         BrandID= BrandSteps.createBrandAndValidate(UUID.randomUUID().toString(), UUID.randomUUID().toString(), 201);
@@ -33,8 +34,8 @@ public class EndToEnd_NegativeTest {
     @Test
     public static void EndToEnd_NegativeUser(){
         String productID1 , productID2 , productID3;
-        UsersSteps.Register(Constants.USERNAME_User2,Constants.PASSWORD);
-        Users user = UsersSteps.login(Constants.ADMIN_USERNAME, Constants.ADMIN_PASSWORD,200);
+        UsersSteps.Register(EnvManager.getEnvVar("USER_USERNAME"), EnvManager.getEnvVar("USER_PASSWORD"));
+        Users user = UsersSteps.login(EnvManager.getEnvVar("USER_USERNAME"), EnvManager.getEnvVar("USER_PASSWORD"),200);
         Constants.setToken(user.getAccess_token());
         productID1 = Utils_APis.Get_Random_Product_ID();
         productID2 = Utils_APis.Get_Random_Product_ID();

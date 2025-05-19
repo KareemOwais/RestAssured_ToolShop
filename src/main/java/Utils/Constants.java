@@ -16,14 +16,6 @@ public class Constants {
         public static String PAYMENT_ENDPOINT = "/payment/check";
         public static final String INVOICE_ENDPOINT = "/invoices";
 
-        public static final String ADMIN_USERNAME = "admin@practicesoftwaretesting.com";
-        public static final String ADMIN_PASSWORD = "welcome01";
-        public static final String USERNAME_User1 = UUID.randomUUID().toString()+"@dd.com";
-        public static final String PASSWORD = "wWlcodm@e01";
-        public static final String USERNAME_User2 = UUID.randomUUID().toString()+"@dd.com";
-
-
-
         public static final String GRAPHQL_URL = "https://hasura.io/learn/graphql";
         private static final  String HASURA_ADMIN_SECRET = "REDACTED";
         private static String TOKEN = null;

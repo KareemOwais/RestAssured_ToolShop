@@ -7,6 +7,7 @@ import Steps.CategorySteps;
 import Steps.ProductSteps;
 import Steps.UsersSteps;
 import Utils.Constants;
+import Utils.EnvManager;
 import Utils.Utils_APis;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -50,7 +51,7 @@ public class RestStepDefinitions {
 
     @Given("Logged in as Admin")
     public void loggedInAsAdmin() {
-        Users user =UsersSteps.login(Constants.ADMIN_USERNAME , Constants.ADMIN_PASSWORD , 200);
+        Users user =UsersSteps.login(EnvManager.getEnvVar("ADMIN_USERNAME"), EnvManager.getEnvVar("ADMIN_PASSWORD"), 200);
         Constants.setToken(user.getAccess_token());
     }
     @When("Product is Deleted")
