@@ -12,7 +12,7 @@ public class EndToEnd_PositiveTest {
     @Test
     public void END_TO_END_Admin(){
         String ParentCategoryID,BrandID,SubCategoryID,ProductID,ImageID;
-        Users user = UsersSteps.login(Constants.ADMIN_USERNAME, Constants.ADMIN_PASSWORD,200);
+        Users user = UsersSteps.login(EnvManager.getEnvVar("ADMIN_USERNAME"), EnvManager.getEnvVar("ADMIN_PASSWORD"),200);
         Constants.setToken(user.getAccess_token());
 
         BrandID= BrandSteps.createBrandAndValidate(UUID.randomUUID().toString(), UUID.randomUUID().toString(), 201);
@@ -46,8 +46,8 @@ public class EndToEnd_PositiveTest {
     @Test
     public void END_To_END_User(){
         String productID1 , productID2;
-        UsersSteps.Register(Constants.USERNAME_User1,Constants.PASSWORD);
-        Users user = UsersSteps.login(Constants.ADMIN_USERNAME, Constants.ADMIN_PASSWORD,200);
+        UsersSteps.Register(EnvManager.getEnvVar("USER_USERNAME"), EnvManager.getEnvVar("USER_PASSWORD"));
+        Users user = UsersSteps.login(EnvManager.getEnvVar("USER_USERNAME"), EnvManager.getEnvVar("USER_PASSWORD"),200);
         Constants.setToken(user.getAccess_token());
         productID1 = Utils_APis.Get_Random_Product_ID();
         productID2 = Utils_APis.Get_Random_Product_ID();
@@ -59,7 +59,7 @@ public class EndToEnd_PositiveTest {
         CartSteps.DeleteProductFromCartAndValidate(cartID, productID2, 204);
         Utils_APis.CompletePaymentAndValidate();
 
-        user = UsersSteps.login(Constants.ADMIN_USERNAME, Constants.ADMIN_PASSWORD,200);
+        user = UsersSteps.login(EnvManager.getEnvVar("ADMIN_USERNAME"), EnvManager.getEnvVar("ADMIN_PASSWORD"),200);
         Constants.setToken(user.getAccess_token());
 
         String InvoiceID = InvoicesSteps.CreateInvoiceAndValidate(cartID);
