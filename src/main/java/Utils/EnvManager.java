@@ -3,19 +3,24 @@ import io.github.cdimascio.dotenv.Dotenv;
 
 public class EnvManager {
     private static Dotenv dotenv;
-    public static String getEnvVar(String key) {
+
+    private static Boolean CheckLocalEnv() {
         try {
             dotenv = Dotenv.load();
+            return true;
         } catch (Exception e) {
-            System.out.println(".env File Not Found , Running in GitHub Actions");
             dotenv = null;
+            return false;
         }
-        String value = System.getenv(key); // Get Environment variable from GitHub Secrets
-
-        if (value == null && dotenv != null) {
+    }
+    public static String getEnvVar(String key) {
+        String value ;
+        if(!CheckLocalEnv()) {
+             value = System.getenv(key);
+        }
+        else{
             value = dotenv.get(key);
         }
-
         return value;
     }
 }

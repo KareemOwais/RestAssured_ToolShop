@@ -36,7 +36,7 @@ public class UsersSteps {
                 .then().statusCode(200).extract().response().as(Users.class);
         logger.info("Logged out successfully");
     }
-    public static void Register(String username, String password) {
+    public static String Register(String username, String password) {
         Users User = new Users(username, password);
           Response response = RestAssured.given()
                 .contentType(ContentType.JSON).accept("application/json")
@@ -45,6 +45,13 @@ public class UsersSteps {
                   .then().extract().response();
           response.prettyPrint();
           response.then().statusCode(201);
-            logger.info("User registered successfully");
+        logger.info("User registered successfully");
+
+        return response.jsonPath().getString("id");
+    }
+    public static Response DeleteUser(String ID) {
+        return RestClient.sendDeleteRequestWithToken("/users/"+ID , Constants.getToken())
+                .then().statusCode(204).extract().response();
+
     }
 }

@@ -45,8 +45,8 @@ public class EndToEnd_PositiveTest {
 
     @Test
     public void END_To_END_User(){
-        String productID1 , productID2;
-        UsersSteps.Register(EnvManager.getEnvVar("USER_USERNAME"), EnvManager.getEnvVar("USER_PASSWORD"));
+        String productID1 , productID2 , UserID ;
+        UserID =UsersSteps.Register(EnvManager.getEnvVar("USER_USERNAME"), EnvManager.getEnvVar("USER_PASSWORD"));
         Users user = UsersSteps.login(EnvManager.getEnvVar("USER_USERNAME"), EnvManager.getEnvVar("USER_PASSWORD"),200);
         Constants.setToken(user.getAccess_token());
         productID1 = Utils_APis.Get_Random_Product_ID();
@@ -59,9 +59,9 @@ public class EndToEnd_PositiveTest {
         CartSteps.DeleteProductFromCartAndValidate(cartID, productID2, 204);
         Utils_APis.CompletePaymentAndValidate();
 
-        user = UsersSteps.login(EnvManager.getEnvVar("ADMIN_USERNAME"), EnvManager.getEnvVar("ADMIN_PASSWORD"),200);
-        Constants.setToken(user.getAccess_token());
-
+        Users Admin = UsersSteps.login(EnvManager.getEnvVar("ADMIN_USERNAME"), EnvManager.getEnvVar("ADMIN_PASSWORD"),200);
+        Constants.setToken(Admin.getAccess_token());
+        UsersSteps.DeleteUser(UserID);
         String InvoiceID = InvoicesSteps.CreateInvoiceAndValidate(cartID);
 
     }

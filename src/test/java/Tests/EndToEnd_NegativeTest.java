@@ -33,8 +33,8 @@ public class EndToEnd_NegativeTest {
     }
     @Test
     public static void EndToEnd_NegativeUser(){
-        String productID1 , productID2 , productID3;
-        UsersSteps.Register(EnvManager.getEnvVar("USER_USERNAME"), EnvManager.getEnvVar("USER_PASSWORD"));
+        String productID1 , productID2 , productID3 , UserID ;
+        UserID =UsersSteps.Register(EnvManager.getEnvVar("USER_USERNAME"), EnvManager.getEnvVar("USER_PASSWORD"));
         Users user = UsersSteps.login(EnvManager.getEnvVar("USER_USERNAME"), EnvManager.getEnvVar("USER_PASSWORD"),200);
         Constants.setToken(user.getAccess_token());
         productID1 = Utils_APis.Get_Random_Product_ID();
@@ -48,5 +48,8 @@ public class EndToEnd_NegativeTest {
         CartSteps.DeleteProductFromCartAndValidate(cartID+"Invalid", productID3, 404);
         CartSteps.GetCartAndValidate(cartID, 200);
         Utils_APis.CompletePaymentAndValidate();
+        Users Admin = UsersSteps.login(EnvManager.getEnvVar("ADMIN_USERNAME"), EnvManager.getEnvVar("ADMIN_PASSWORD"), 200);
+        Constants.setToken(Admin.getAccess_token());
+        UsersSteps.DeleteUser(UserID);
     }
 }
