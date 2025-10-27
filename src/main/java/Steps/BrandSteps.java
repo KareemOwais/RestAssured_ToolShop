@@ -98,6 +98,7 @@ public class BrandSteps {
             Brand brand = response.as(Brand.class);
             Assert.assertEquals(brand.getMessage(),"Method is not allowed for the requested route");
             logger.info("Method is not allowed for the requested route");
+            //HEllo
         }
     }
 }
