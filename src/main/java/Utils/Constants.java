@@ -1,4 +1,4 @@
-package Utils;
+﻿package Utils;
 
 import java.util.UUID;
 
@@ -17,7 +17,6 @@ public class Constants {
         public static final String INVOICE_ENDPOINT = "/invoices";
 
         public static final String GRAPHQL_URL = "https://hasura.io/learn/graphql";
-        private static final  String HASURA_ADMIN_SECRET = "REDACTED";
         private static String TOKEN = null;
 
         public static String getToken() {
@@ -27,7 +26,7 @@ public class Constants {
             TOKEN = token;
         }
         public static String getHasuraAdminSecret() {
-                return HASURA_ADMIN_SECRET;
+                return EnvManager.getEnvVar("HASURA_TOKEN");
         }
 
 

@@ -1,4 +1,4 @@
-name: API Test CI
+﻿name: API Test CI
 
 on:
   push:
@@ -17,6 +17,7 @@ jobs:
       ADMIN_PASSWORD: ${{ secrets.ADMIN_PASSWORD }}
       USER_USERNAME: ${{ secrets.USER_USERNAME }}
       USER_PASSWORD: ${{ secrets.USER_PASSWORD }}
+      HASURA_TOKEN: ${{ secrets.HASURA_TOKEN }}
 
     steps:
 
@@ -42,3 +43,4 @@ jobs:
 
       - name: Run API Tests
         run: mvn test
+

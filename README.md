@@ -1,4 +1,4 @@
-# RestAssured ToolShop
+﻿# RestAssured ToolShop
 
 API test framework for the [Practice Software Testing Toolshop](https://api.practicesoftwaretesting.com) demo API, plus a GraphQL and WebSocket test.
 
@@ -32,6 +32,7 @@ ADMIN_USERNAME=...
 ADMIN_PASSWORD=...
 USER_USERNAME=...
 USER_PASSWORD=...
+HASURA_TOKEN=...  # Hasura learn-tutorial JWT, only needed for the GraphQL test
 ```
 
 ```bash
@@ -42,4 +43,5 @@ mvn test
 
 ## CI
 
-A GitHub Actions workflow (`.github/workflows/maven.yaml`) compiles the project and runs the tests on every push and pull request to `master`. The four credentials above are stored as repository secrets.
+A GitHub Actions workflow (`.github/workflows/maven.yaml`) compiles the project and runs the tests on every push and pull request to `master`. The credentials above are stored as repository secrets.
+
